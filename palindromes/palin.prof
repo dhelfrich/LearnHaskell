@@ -1,53 +1,60 @@
-	Sun Feb 22 10:57 2015 Time and Allocation Profiling Report  (Final)
+	Sun Feb 22 11:42 2015 Time and Allocation Profiling Report  (Final)
 
 	   palin +RTS -p -RTS 0 7
 
-	total time  =        4.04 secs   (4045 ticks @ 1000 us, 1 processor)
-	total alloc = 13,919,506,744 bytes  (excludes profiling overheads)
+	total time  =        3.80 secs   (3802 ticks @ 1000 us, 1 processor)
+	total alloc = 13,803,702,200 bytes  (excludes profiling overheads)
 
-COST CENTRE             MODULE  %time %alloc
+COST CENTRE         MODULE  %time %alloc
 
-lstsubs.consSubseqs     Main     85.1   80.9
-lstsubs.isPalin         Main     11.1   17.4
-lstsubs.consSubseqs.fil Main      1.4    0.8
+lstsubs.consSubseqs Main     88.0   81.6
+lstsubs.isPalin     Main      9.9   17.3
 
 
-                                                                             individual     inherited
-COST CENTRE                        MODULE                  no.     entries  %time %alloc   %time %alloc
+                                                                            individual     inherited
+COST CENTRE                       MODULE                  no.     entries  %time %alloc   %time %alloc
 
-MAIN                               MAIN                     48           0    0.0    0.0   100.0  100.0
- CAF                               Main                     95           0    0.0    0.0   100.0  100.0
-  getShortest                      Main                    102           1    0.0    0.0     0.0    0.0
-  main                             Main                     96           1    0.0    0.0   100.0  100.0
-   main.end                        Main                    100           1    0.0    0.0     0.0    0.0
-   main.first                      Main                     99           1    0.0    0.0     0.0    0.0
-   main.inputs                     Main                     98           1    0.0    0.0     0.0    0.0
-   main.outputs                    Main                     97           1    0.0    0.0   100.0  100.0
-    optiSplit                      Main                    101       98189    0.1    0.0   100.0  100.0
-     optiSplit.l                   Main                    108       32996    0.1    0.0     0.1    0.0
-     optiSplit.mids                Main                    105       32996    0.0    0.0    98.8   99.4
-      lstsubs                      Main                    109       32996    0.5    0.1    98.1   99.2
-       lstsubs.isPalin             Main                    113     1108931   11.1   17.4    11.1   17.4
-       lstsubs.consSubseqs         Main                    110       32996   85.1   80.9    86.5   81.7
-        lstsubs.consSubseqs.fil    Main                    111       32996    1.4    0.8     1.4    0.8
-      middleParts                  Main                    106       32996    0.1    0.0     0.7    0.2
-       middleParts.\               Main                    112       67931    0.0    0.0     0.0    0.0
-       middleParts.middleParts'    Main                    107      100927    0.3    0.1     0.5    0.2
-        middleParts.middleParts'.\ Main                    114      126796    0.2    0.0     0.2    0.0
-     optiSplit'                    Main                    104       32996    0.4    0.2     1.0    0.5
-      optiSplit'.(...)             Main                    123       34508    0.4    0.2     0.4    0.2
-      optiSplit'.str2              Main                    122       34508    0.0    0.0     0.0    0.0
-      optiSplit'.str2              Main                    121       14583    0.0    0.0     0.0    0.0
-      optiSplit'.l                 Main                    120       14583    0.0    0.0     0.0    0.0
-      optiSplit'.(...)             Main                    119       14583    0.1    0.0     0.1    0.0
-      optiSplit'.str1              Main                    118       14583    0.0    0.0     0.0    0.0
-      optiSplit'.(...)             Main                    117       34508    0.0    0.1     0.0    0.1
-      optiSplit'.str1              Main                    116       34508    0.0    0.0     0.0    0.0
-     getShortest                   Main                    103           0    0.1    0.0     0.1    0.0
-      minLength                    Main                    115       16095    0.0    0.0     0.0    0.0
- CAF                               GHC.IO.Handle.FD         91           0    0.0    0.0     0.0    0.0
- CAF                               Text.Read.Lex            85           0    0.0    0.0     0.0    0.0
- CAF                               GHC.Conc.Signal          84           0    0.0    0.0     0.0    0.0
- CAF                               GHC.IO.Encoding          80           0    0.0    0.0     0.0    0.0
- CAF                               GHC.IO.Encoding.Iconv    68           0    0.0    0.0     0.0    0.0
- CAF                               GHC.IO.FD                66           0    0.0    0.0     0.0    0.0
+MAIN                              MAIN                     47           0    0.0    0.0   100.0  100.0
+ main                             Main                     95           0    0.0    0.0   100.0  100.0
+  main.outputs                    Main                    101           1    0.0    0.0   100.0  100.0
+   optiSplit                      Main                    102       98189    0.1    0.0   100.0  100.0
+    optiSplit'                    Main                    120       32996    0.3    0.1     0.7    0.4
+     optiSplit'.str2              Main                    129       34508    0.0    0.0     0.0    0.0
+     optiSplit'.(...)             Main                    128       34508    0.2    0.2     0.2    0.2
+     optiSplit'.str2              Main                    127       14583    0.0    0.0     0.0    0.0
+     optiSplit'.(...)             Main                    126       14583    0.1    0.0     0.1    0.0
+     optiSplit'.l                 Main                    125       14583    0.0    0.0     0.0    0.0
+     optiSplit'.str1              Main                    124       14583    0.0    0.0     0.0    0.0
+     optiSplit'.str1              Main                    123       34508    0.0    0.0     0.0    0.0
+     optiSplit'.(...)             Main                    122       34508    0.2    0.1     0.2    0.1
+    optiSplit.mids                Main                    106       32996    0.0    0.0    99.2   99.6
+     lstsubs                      Main                    109       32996    0.5    0.1    99.1   99.5
+      lstsubs.isPalin             Main                    118     1108931    9.9   17.3     9.9   17.3
+      lstsubs.consSubseqs         Main                    110       32996   88.0   81.6    88.7   82.0
+       lstsubs.consSubseqs.fil    Main                    116           0    0.7    0.5     0.7    0.5
+     middleParts                  Main                    107       32996    0.0    0.0     0.1    0.1
+      middleParts.\               Main                    117       67931    0.0    0.0     0.0    0.0
+      middleParts.middleParts'    Main                    108      100927    0.1    0.1     0.1    0.1
+       middleParts.middleParts'.\ Main                    119      126796    0.1    0.0     0.1    0.0
+    optiSplit.l                   Main                    105       32996    0.0    0.0     0.0    0.0
+    getShortest                   Main                    104           0    0.0    0.0     0.0    0.0
+     minLength                    Main                    121       16095    0.0    0.0     0.0    0.0
+  main.first                      Main                     99           1    0.0    0.0     0.0    0.0
+  main.end                        Main                     97           1    0.0    0.0     0.0    0.0
+  main.inputs                     Main                     96           1    0.0    0.0     0.0    0.0
+ CAF                              Main                     93           0    0.0    0.0     0.0    0.0
+  optiSplit                       Main                    111           0    0.0    0.0     0.0    0.0
+   optiSplit.mids                 Main                    112           0    0.0    0.0     0.0    0.0
+    lstsubs                       Main                    113           0    0.0    0.0     0.0    0.0
+     lstsubs.consSubseqs          Main                    114           0    0.0    0.0     0.0    0.0
+      lstsubs.consSubseqs.fil     Main                    115           1    0.0    0.0     0.0    0.0
+  getShortest                     Main                    103           1    0.0    0.0     0.0    0.0
+  main                            Main                     94           1    0.0    0.0     0.0    0.0
+   main.first                     Main                    100           0    0.0    0.0     0.0    0.0
+   main.end                       Main                     98           0    0.0    0.0     0.0    0.0
+ CAF                              GHC.IO.Handle.FD         92           0    0.0    0.0     0.0    0.0
+ CAF                              GHC.IO.Encoding          86           0    0.0    0.0     0.0    0.0
+ CAF                              Text.Read.Lex            76           0    0.0    0.0     0.0    0.0
+ CAF                              GHC.Conc.Signal          75           0    0.0    0.0     0.0    0.0
+ CAF                              GHC.IO.Encoding.Iconv    72           0    0.0    0.0     0.0    0.0
+ CAF                              GHC.IO.FD                71           0    0.0    0.0     0.0    0.0

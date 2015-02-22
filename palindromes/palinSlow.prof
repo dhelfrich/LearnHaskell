@@ -1,0 +1,53 @@
+	Sun Feb 22 11:43 2015 Time and Allocation Profiling Report  (Final)
+
+	   palinSlow +RTS -p -RTS 0 4
+
+	total time  =        8.22 secs   (8223 ticks @ 1000 us, 1 processor)
+	total alloc = 25,337,544,264 bytes  (excludes profiling overheads)
+
+COST CENTRE  MODULE  %time %alloc
+
+foldSub      Main     91.1  100.0
+minLength    Main      4.8    0.0
+foldSub.l    Main      2.3    0.0
+foldSub.lst' Main      1.0    0.0
+
+
+                                                                         individual     inherited
+COST CENTRE                    MODULE                  no.     entries  %time %alloc   %time %alloc
+
+MAIN                           MAIN                     47           0    0.0    0.0   100.0  100.0
+ main                          Main                     95           0    0.0    0.0   100.0  100.0
+  main.outputs                 Main                    101           1    0.0    0.0   100.0  100.0
+   optiSplit2                  Main                    103           0    0.0    0.0   100.0  100.0
+    shortestSplit              Main                    104           4    0.0    0.0   100.0  100.0
+     foldSub                   Main                    113    25296958   91.1  100.0    94.4  100.0
+      foldSub.lst'             Main                    116    10674173    1.0    0.0     1.0    0.0
+      foldSub.l                Main                    115    10674173    2.3    0.0     2.3    0.0
+     lstsubs                   Main                    107           4    0.0    0.0     0.0    0.0
+      lstsubs.isPalin          Main                    114        2796    0.0    0.0     0.0    0.0
+      lstsubs.consSubseqs      Main                    108           4    0.0    0.0     0.0    0.0
+       lstsubs.consSubseqs.fil Main                    112           0    0.0    0.0     0.0    0.0
+     getShortest               Main                    106           0    0.7    0.0     5.6    0.0
+      minLength                Main                    120     3948604    4.8    0.0     4.8    0.0
+  main.first                   Main                     99           1    0.0    0.0     0.0    0.0
+  main.end                     Main                     97           1    0.0    0.0     0.0    0.0
+  main.inputs                  Main                     96           1    0.0    0.0     0.0    0.0
+ CAF                           Main                     93           0    0.0    0.0     0.0    0.0
+  lstsubs                      Main                    109           0    0.0    0.0     0.0    0.0
+   lstsubs.consSubseqs         Main                    110           0    0.0    0.0     0.0    0.0
+    lstsubs.consSubseqs.fil    Main                    111           1    0.0    0.0     0.0    0.0
+  getShortest                  Main                    105           1    0.0    0.0     0.0    0.0
+  optiSplit2                   Main                    102           1    0.0    0.0     0.0    0.0
+   shortestSplit               Main                    117           0    0.0    0.0     0.0    0.0
+    lstsubs                    Main                    118           0    0.0    0.0     0.0    0.0
+     lstsubs.isPalin           Main                    119           1    0.0    0.0     0.0    0.0
+  main                         Main                     94           1    0.0    0.0     0.0    0.0
+   main.first                  Main                    100           0    0.0    0.0     0.0    0.0
+   main.end                    Main                     98           0    0.0    0.0     0.0    0.0
+ CAF                           GHC.IO.Handle.FD         92           0    0.0    0.0     0.0    0.0
+ CAF                           GHC.IO.Encoding          86           0    0.0    0.0     0.0    0.0
+ CAF                           Text.Read.Lex            76           0    0.0    0.0     0.0    0.0
+ CAF                           GHC.Conc.Signal          75           0    0.0    0.0     0.0    0.0
+ CAF                           GHC.IO.Encoding.Iconv    72           0    0.0    0.0     0.0    0.0
+ CAF                           GHC.IO.FD                71           0    0.0    0.0     0.0    0.0
