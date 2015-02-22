@@ -1,0 +1,53 @@
+	Sun Feb 22 10:57 2015 Time and Allocation Profiling Report  (Final)
+
+	   palin +RTS -p -RTS 0 7
+
+	total time  =        4.04 secs   (4045 ticks @ 1000 us, 1 processor)
+	total alloc = 13,919,506,744 bytes  (excludes profiling overheads)
+
+COST CENTRE             MODULE  %time %alloc
+
+lstsubs.consSubseqs     Main     85.1   80.9
+lstsubs.isPalin         Main     11.1   17.4
+lstsubs.consSubseqs.fil Main      1.4    0.8
+
+
+                                                                             individual     inherited
+COST CENTRE                        MODULE                  no.     entries  %time %alloc   %time %alloc
+
+MAIN                               MAIN                     48           0    0.0    0.0   100.0  100.0
+ CAF                               Main                     95           0    0.0    0.0   100.0  100.0
+  getShortest                      Main                    102           1    0.0    0.0     0.0    0.0
+  main                             Main                     96           1    0.0    0.0   100.0  100.0
+   main.end                        Main                    100           1    0.0    0.0     0.0    0.0
+   main.first                      Main                     99           1    0.0    0.0     0.0    0.0
+   main.inputs                     Main                     98           1    0.0    0.0     0.0    0.0
+   main.outputs                    Main                     97           1    0.0    0.0   100.0  100.0
+    optiSplit                      Main                    101       98189    0.1    0.0   100.0  100.0
+     optiSplit.l                   Main                    108       32996    0.1    0.0     0.1    0.0
+     optiSplit.mids                Main                    105       32996    0.0    0.0    98.8   99.4
+      lstsubs                      Main                    109       32996    0.5    0.1    98.1   99.2
+       lstsubs.isPalin             Main                    113     1108931   11.1   17.4    11.1   17.4
+       lstsubs.consSubseqs         Main                    110       32996   85.1   80.9    86.5   81.7
+        lstsubs.consSubseqs.fil    Main                    111       32996    1.4    0.8     1.4    0.8
+      middleParts                  Main                    106       32996    0.1    0.0     0.7    0.2
+       middleParts.\               Main                    112       67931    0.0    0.0     0.0    0.0
+       middleParts.middleParts'    Main                    107      100927    0.3    0.1     0.5    0.2
+        middleParts.middleParts'.\ Main                    114      126796    0.2    0.0     0.2    0.0
+     optiSplit'                    Main                    104       32996    0.4    0.2     1.0    0.5
+      optiSplit'.(...)             Main                    123       34508    0.4    0.2     0.4    0.2
+      optiSplit'.str2              Main                    122       34508    0.0    0.0     0.0    0.0
+      optiSplit'.str2              Main                    121       14583    0.0    0.0     0.0    0.0
+      optiSplit'.l                 Main                    120       14583    0.0    0.0     0.0    0.0
+      optiSplit'.(...)             Main                    119       14583    0.1    0.0     0.1    0.0
+      optiSplit'.str1              Main                    118       14583    0.0    0.0     0.0    0.0
+      optiSplit'.(...)             Main                    117       34508    0.0    0.1     0.0    0.1
+      optiSplit'.str1              Main                    116       34508    0.0    0.0     0.0    0.0
+     getShortest                   Main                    103           0    0.1    0.0     0.1    0.0
+      minLength                    Main                    115       16095    0.0    0.0     0.0    0.0
+ CAF                               GHC.IO.Handle.FD         91           0    0.0    0.0     0.0    0.0
+ CAF                               Text.Read.Lex            85           0    0.0    0.0     0.0    0.0
+ CAF                               GHC.Conc.Signal          84           0    0.0    0.0     0.0    0.0
+ CAF                               GHC.IO.Encoding          80           0    0.0    0.0     0.0    0.0
+ CAF                               GHC.IO.Encoding.Iconv    68           0    0.0    0.0     0.0    0.0
+ CAF                               GHC.IO.FD                66           0    0.0    0.0     0.0    0.0

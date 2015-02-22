@@ -8,7 +8,7 @@ main = do
     let first = read $ args !! 0
         end = read $ args !! 1
         inputs = drop first . take end $ lines file
-        outputs = map optiSplit inputs
+        outputs = map optiSplit2 inputs
     --print inputs
     mapM print outputs 
 
@@ -52,7 +52,7 @@ middleParts lst cut = filter (\ (_, x) -> (not.null) x) $ middleParts' lst cut 0
 --contains the palindromes that start with the ith character in the string
 --we traverse this list in a particular way to generate partitions 
 lstsubs:: String -> [[String]]
-lstsubs str = map (filter isPalin) $ consSubseqs str
+lstsubs str = map (filter isPalin) $ consSubseqs str ++ [[""]]
   where
     isPalin str' = str' == reverse str'
     consSubseqs :: String -> [[String]]
