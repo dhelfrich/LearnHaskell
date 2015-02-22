@@ -1,0 +1,5 @@
+go home
+eat
+kill
+sleep
+dance

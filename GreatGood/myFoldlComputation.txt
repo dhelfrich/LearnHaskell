@@ -1,0 +1,14 @@
+myFoldl f z xs = foldr step id xs z
+    where step x g a = g (f a x)
+
+myFoldl f 0 [1,2,3] = foldr step id [1,2,3] 0 
+myFoldl f 0 [1,2,3] = step 1 (step 2 (step 3 id)) 0
+myFoldl f 0 [1,2,3] = (step 2 (step 3 id)) (f 0 1)
+myFoldl f 0 [1,2,3] = step 2 (step 3 id) (f 0 1)
+myFoldl f 0 [1,2,3] = (step 3 id) (f (f 0 1) 2)
+myFoldl f 0 [1,2,3] = step 3 id (f (f 0 1) 2)
+myFoldl f 0 [1,2,3] = id f (f (f 0 1) 2) 3
+myFoldl f 0 [1,2,3] = f (f (f 0 1) 2) 3
+myFoldl (+) 0 [1,2,3] = (f (f 0 1) 2) + 3
+myFoldl (+) 0 [1,2,3] = ((f 0 1) + 2) + 3
+myFoldl (+) 0 [1,2,3] = ((0 + 1) + 2) + 3

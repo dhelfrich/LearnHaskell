@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+<title>HLint Report</title>
+<script type='text/javascript'>
+
+/* == Algorithm for show/unshow ==
+   Each hint/file is given a number, hint# or file#
+   When we say showOnly with a class name we add the rules to
+   the css #content div {display:none}, #content div.className {display:block}
+   When going back to showAll we remove these results
+*/
+
+// CSS MANIPULATION //
+
+function deleteRules(n)
+{
+	var css = document.styleSheets[0];
+	for (var i = 0; i < n; i++)
+		css.deleteRule(css.cssRules.length-1);
+}
+
+function insertRule(s)
+{
+	var css = document.styleSheets[0];
+	css.insertRule(s, css.cssRules.length);
+}
+
+// SHOW/HIDE LOGIC //
+
+var last = "";
+
+function show(id)
+{
+	if (id == last) return;
+	if (id == "")
+	{
+		deleteRules(3);
+		insertRule(".all {font-weight: bold;}");
+	}
+	else
+	{
+		if (last == "")
+		{
+			deleteRules(1);
+			insertRule("#content div {display:none;}");
+		}
+		else
+		{
+			deleteRules(2);
+		}
+		insertRule("#content div." + id + " {display:block;}");
+		insertRule("#" + id + "{font-weight:bold;}");
+	}
+
+	last = id;
+}
+
+</script>
+<style type="text/css">
+/* These rules are manipulated by the script.
+   The commented form is how it looks with an id selected */
+
+.all {font-weight: bold;}      /* #content div {display:none;} */
+                               /* #content div.id {display:block;} */
+                               /* #id {font-weight: bold;} */
+
+</style>
+<style type="text/css">
+/* See http://www.webreference.com/programming/css_frames/ */
+body {
+	margin:0;
+	border:0;
+	padding:0;
+	height:100%;
+	max-height:100%;
+	font-family: sans-serif;
+	font-size:76%;
+	overflow: hidden;
+}
+
+#leftbar {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 215px;
+	bottom: 0px;
+	overflow:auto;
+	background:rgb(202,223,255);
+	margin: 10px;
+	padding-top: 0;
+	padding-left: 7px;
+	padding-right: 7px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+	display:none; /* Override if script present */
+}
+
+#content {
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	overflow:auto;
+	padding-bottom: 15px;
+	padding-right: 7px;
+
+	left:10px; /* Override if script present */
+}
+
+#leftbar ul {margin-top: 0px; padding-left: 15px;}
+#leftbar p {margin-bottom: 0px;}
+.note {color: gray; font-size: smaller;}
+
+pre {
+	font-family: "lucida console", monospace;
+	padding-left: 15px;
+	margin: 2px;
+}
+
+#content div {
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding-top: 4px;
+	border-top: 1px solid #ccc;
+}
+
+.script #content {left:250px;}
+.script #leftbar {display: block;}
+
+/* From HsColour */
+.hs-keyglyph, .hs-layout {color: red;}
+.hs-keyword {color: blue;}
+.hs-comment, .hs-comment a {color: green;}
+.hs-str, .hs-chr {color: teal;}
+</style>
+</head>
+<body>
+
+<script type='text/javascript'>
+document.body.className = "script";
+</script>
+
+<div id="leftbar" valign="top" style="min-width:200px">
+
+<p><a class="all" href="javascript:show('')">All hints</a></p>
+<ul>
+<li><a id="hint0" href="javascript:show('hint0')">Error: Monad law, left identity (1)</a></li>
+<li><a id="hint1" href="javascript:show('hint1')">Error: Redundant do (4)</a></li>
+<li><a id="hint2" href="javascript:show('hint2')">Error: Too strict if (1)</a></li>
+<li><a id="hint3" href="javascript:show('hint3')">Error: Use and (1)</a></li>
+<li><a id="hint4" href="javascript:show('hint4')">Error: Use elem (1)</a></li>
+<li><a id="hint5" href="javascript:show('hint5')">Error: Use maximum (2)</a></li>
+<li><a id="hint6" href="javascript:show('hint6')">Error: Use minimum (1)</a></li>
+<li><a id="hint7" href="javascript:show('hint7')">Error: Use or (1)</a></li>
+<li><a id="hint8" href="javascript:show('hint8')">Error: Use print (10)</a></li>
+<li><a id="hint9" href="javascript:show('hint9')">Warning: Avoid lambda (2)</a></li>
+<li><a id="hint10" href="javascript:show('hint10')">Warning: Redundant $ (1)</a></li>
+<li><a id="hint11" href="javascript:show('hint11')">Warning: Redundant bracket (3)</a></li>
+<li><a id="hint12" href="javascript:show('hint12')">Warning: Use foldr (1)</a></li>
+<li><a id="hint13" href="javascript:show('hint13')">Warning: Use guards (1)</a></li>
+</ul>
+
+<p><a class="all" href="javascript:show('')">All files</a></p>
+<ul>
+<li><a id="file0" href="javascript:show('file0')">./Basics/ifThenElseName.hs (2)</a></li>
+<li><a id="file1" href="javascript:show('file1')">./Basics/ioTest.hs (1)</a></li>
+<li><a id="file2" href="javascript:show('file2')">./Basics/mySignum.hs (1)</a></li>
+<li><a id="file3" href="javascript:show('file3')">./Basics/triangle.hs (2)</a></li>
+<li><a id="file4" href="javascript:show('file4')">./Inter/factorial.hs (1)</a></li>
+<li><a id="file5" href="javascript:show('file5')">./Inter/folds.hs (4)</a></li>
+<li><a id="file6" href="javascript:show('file6')">./Inter/for.hs (1)</a></li>
+<li><a id="file7" href="javascript:show('file7')">./Inter/lambda.hs (1)</a></li>
+<li><a id="file8" href="javascript:show('file8')">./Inter/morelists.hs (7)</a></li>
+<li><a id="file9" href="javascript:show('file9')">./Inter/plusOne.hs (1)</a></li>
+<li><a id="file10" href="javascript:show('file10')">./Inter/power.hs (2)</a></li>
+<li><a id="file11" href="javascript:show('file11')">./difflist.hs (3)</a></li>
+<li><a id="file12" href="javascript:show('file12')">./knight.hs (1)</a></li>
+<li><a id="file13" href="javascript:show('file13')">./map.hs (1)</a></li>
+<li><a id="file14" href="javascript:show('file14')">./maxFold.hs (1)</a></li>
+<li><a id="file15" href="javascript:show('file15')">./primes.hs (1)</a></li>
+</ul>
+
+</div>
+<div id="content" valign="top" width="100%">
+<p>
+	Report generated by <a href="http://community.haskell.org/~ndm/hlint/">HLint</a>
+v1.8.53
+	- a tool to suggest improvements to your Haskell code.
+</p>
+
+<div class="hint10 file13">
+./map.hs:9:13: Warning: Redundant $<br/>
+Found<br/>
+<pre><span class='hs-conid'>Map</span><span class='hs-varop'>.</span><span class='hs-varid'>fromList</span> <span class='hs-varop'>$</span>
+  <span class='hs-keyglyph'>[</span><span class='hs-layout'>(</span><span class='hs-str'>"betty"</span><span class='hs-layout'>,</span> <span class='hs-str'>"555-2938"</span><span class='hs-layout'>)</span><span class='hs-layout'>,</span> <span class='hs-layout'>(</span><span class='hs-str'>"bonnie"</span><span class='hs-layout'>,</span> <span class='hs-str'>"452-2928"</span><span class='hs-layout'>)</span><span class='hs-layout'>,</span>
+   <span class='hs-layout'>(</span><span class='hs-str'>"patsy"</span><span class='hs-layout'>,</span> <span class='hs-str'>"493-2928"</span><span class='hs-layout'>)</span><span class='hs-layout'>,</span> <span class='hs-layout'>(</span><span class='hs-str'>"lucille"</span><span class='hs-layout'>,</span> <span class='hs-str'>"205-2928"</span><span class='hs-layout'>)</span><span class='hs-layout'>,</span>
+   <span class='hs-layout'>(</span><span class='hs-str'>"wendy"</span><span class='hs-layout'>,</span> <span class='hs-str'>"939-8282"</span><span class='hs-layout'>)</span><span class='hs-layout'>,</span> <span class='hs-layout'>(</span><span class='hs-str'>"penny"</span><span class='hs-layout'>,</span> <span class='hs-str'>"853-2492"</span><span class='hs-layout'>)</span><span class='hs-keyglyph'>]</span></pre>
+Why not<br/>
+<pre><span class='hs-conid'>Map</span><span class='hs-varop'>.</span><span class='hs-varid'>fromList</span>
+  <span class='hs-keyglyph'>[</span><span class='hs-layout'>(</span><span class='hs-str'>"betty"</span><span class='hs-layout'>,</span> <span class='hs-str'>"555-2938"</span><span class='hs-layout'>)</span><span class='hs-layout'>,</span> <span class='hs-layout'>(</span><span class='hs-str'>"bonnie"</span><span class='hs-layout'>,</span> <span class='hs-str'>"452-2928"</span><span class='hs-layout'>)</span><span class='hs-layout'>,</span>
+   <span class='hs-layout'>(</span><span class='hs-str'>"patsy"</span><span class='hs-layout'>,</span> <span class='hs-str'>"493-2928"</span><span class='hs-layout'>)</span><span class='hs-layout'>,</span> <span class='hs-layout'>(</span><span class='hs-str'>"lucille"</span><span class='hs-layout'>,</span> <span class='hs-str'>"205-2928"</span><span class='hs-layout'>)</span><span class='hs-layout'>,</span>
+   <span class='hs-layout'>(</span><span class='hs-str'>"wendy"</span><span class='hs-layout'>,</span> <span class='hs-str'>"939-8282"</span><span class='hs-layout'>)</span><span class='hs-layout'>,</span> <span class='hs-layout'>(</span><span class='hs-str'>"penny"</span><span class='hs-layout'>,</span> <span class='hs-str'>"853-2492"</span><span class='hs-layout'>)</span><span class='hs-keyglyph'>]</span></pre>
+
+</div>
+
+<div class="hint1 file15">
+./primes.hs:3:8: Error: Redundant do<br/>
+Found<br/>
+<pre><span class='hs-keyword'>do</span> <span class='hs-varid'>print</span> <span class='hs-str'>"hi"</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-str'>"hi"</span></pre>
+
+</div>
+
+<div class="hint5 file14">
+./maxFold.hs:8:12: Error: Use maximum<br/>
+Found<br/>
+<pre><span class='hs-definition'>foldl1</span> <span class='hs-varid'>max</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>maximum</span></pre>
+
+</div>
+
+<div class="hint0 file12">
+./knight.hs:20:13: Error: Monad law, left identity<br/>
+Found<br/>
+<pre><span class='hs-definition'>return</span> <span class='hs-varid'>start</span> <span class='hs-varop'>&gt;&gt;=</span> <span class='hs-varid'>moveKnight</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>moveKnight</span> <span class='hs-varid'>start</span></pre>
+
+</div>
+
+<div class="hint9 file11">
+./difflist.hs:13:53: Warning: Avoid lambda<br/>
+Found<br/>
+<pre><span class='hs-keyglyph'>\</span> <span class='hs-varid'>xs</span> <span class='hs-keyglyph'>-&gt;</span> <span class='hs-varid'>f</span> <span class='hs-layout'>(</span><span class='hs-varid'>g</span> <span class='hs-varid'>xs</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>f</span> <span class='hs-varop'>.</span> <span class='hs-varid'>g</span></pre>
+
+</div>
+
+<div class="hint1 file11">
+./difflist.hs:22:20: Error: Redundant do<br/>
+Found<br/>
+<pre><span class='hs-keyword'>do</span> <span class='hs-varid'>tell</span> <span class='hs-layout'>(</span><span class='hs-varid'>toDiffList</span> <span class='hs-keyglyph'>[</span><span class='hs-str'>"0"</span><span class='hs-keyglyph'>]</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>tell</span> <span class='hs-layout'>(</span><span class='hs-varid'>toDiffList</span> <span class='hs-keyglyph'>[</span><span class='hs-str'>"0"</span><span class='hs-keyglyph'>]</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+<div class="hint1 file11">
+./difflist.hs:29:23: Error: Redundant do<br/>
+Found<br/>
+<pre><span class='hs-keyword'>do</span> <span class='hs-varid'>tell</span> <span class='hs-keyglyph'>[</span><span class='hs-str'>"0"</span><span class='hs-keyglyph'>]</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>tell</span> <span class='hs-keyglyph'>[</span><span class='hs-str'>"0"</span><span class='hs-keyglyph'>]</span></pre>
+
+</div>
+
+<div class="hint11 file3">
+./Basics/triangle.hs:6:40: Warning: Redundant bracket<br/>
+Found<br/>
+<pre><span class='hs-layout'>(</span><span class='hs-varid'>read</span> <span class='hs-varid'>base</span><span class='hs-layout'>)</span> <span class='hs-varop'>*</span> <span class='hs-layout'>(</span><span class='hs-varid'>read</span> <span class='hs-varid'>height</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>read</span> <span class='hs-varid'>base</span> <span class='hs-varop'>*</span> <span class='hs-layout'>(</span><span class='hs-varid'>read</span> <span class='hs-varid'>height</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+<div class="hint11 file3">
+./Basics/triangle.hs:6:40: Warning: Redundant bracket<br/>
+Found<br/>
+<pre><span class='hs-layout'>(</span><span class='hs-varid'>read</span> <span class='hs-varid'>base</span><span class='hs-layout'>)</span> <span class='hs-varop'>*</span> <span class='hs-layout'>(</span><span class='hs-varid'>read</span> <span class='hs-varid'>height</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-layout'>(</span><span class='hs-varid'>read</span> <span class='hs-varid'>base</span><span class='hs-layout'>)</span> <span class='hs-varop'>*</span> <span class='hs-varid'>read</span> <span class='hs-varid'>height</span></pre>
+
+</div>
+
+<div class="hint13 file2">
+./Basics/mySignum.hs:1:1: Warning: Use guards<br/>
+Found<br/>
+<pre><span class='hs-definition'>mySignum</span> <span class='hs-varid'>x</span> <span class='hs-keyglyph'>=</span> <span class='hs-keyword'>if</span> <span class='hs-varid'>x</span> <span class='hs-varop'>&lt;</span> <span class='hs-num'>0</span> <span class='hs-keyword'>then</span> <span class='hs-comment'>-</span><span class='hs-num'>1</span> <span class='hs-keyword'>else</span> <span class='hs-keyword'>if</span> <span class='hs-varid'>x</span> <span class='hs-varop'>&gt;</span> <span class='hs-num'>0</span> <span class='hs-keyword'>then</span> <span class='hs-num'>1</span> <span class='hs-keyword'>else</span> <span class='hs-num'>0</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>mySignum</span> <span class='hs-varid'>x</span>
+  <span class='hs-keyglyph'>|</span> <span class='hs-varid'>x</span> <span class='hs-varop'>&lt;</span> <span class='hs-num'>0</span> <span class='hs-keyglyph'>=</span> <span class='hs-comment'>-</span><span class='hs-num'>1</span>
+  <span class='hs-keyglyph'>|</span> <span class='hs-varid'>x</span> <span class='hs-varop'>&gt;</span> <span class='hs-num'>0</span> <span class='hs-keyglyph'>=</span> <span class='hs-num'>1</span>
+  <span class='hs-keyglyph'>|</span> <span class='hs-varid'>otherwise</span> <span class='hs-keyglyph'>=</span> <span class='hs-num'>0</span></pre>
+
+</div>
+
+<div class="hint8 file1">
+./Basics/ioTest.hs:5:5: Error: Use print<br/>
+Found<br/>
+<pre><span class='hs-definition'>putStrLn</span> <span class='hs-layout'>(</span><span class='hs-varid'>show</span> <span class='hs-varid'>t</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-varid'>t</span></pre>
+
+</div>
+
+<div class="hint4 file0">
+./Basics/ifThenElseName.hs:11:8: Error: Use elem<br/>
+Found<br/>
+<pre><span class='hs-layout'>(</span><span class='hs-varid'>name</span> <span class='hs-varop'>==</span> <span class='hs-str'>"Simon"</span><span class='hs-layout'>)</span> <span class='hs-varop'>||</span> <span class='hs-layout'>(</span><span class='hs-varid'>name</span> <span class='hs-varop'>==</span> <span class='hs-str'>"John"</span><span class='hs-layout'>)</span> <span class='hs-varop'>||</span> <span class='hs-layout'>(</span><span class='hs-varid'>name</span> <span class='hs-varop'>==</span> <span class='hs-str'>"Phil"</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>name</span> <span class='hs-varop'>`elem`</span> <span class='hs-keyglyph'>[</span><span class='hs-str'>"Simon"</span><span class='hs-layout'>,</span> <span class='hs-str'>"John"</span><span class='hs-layout'>,</span> <span class='hs-str'>"Phil"</span><span class='hs-keyglyph'>]</span></pre>
+
+</div>
+
+<div class="hint2 file0">
+./Basics/ifThenElseName.hs:13:14: Error: Too strict if<br/>
+Found<br/>
+<pre><span class='hs-keyword'>if</span> <span class='hs-varid'>name</span> <span class='hs-varop'>==</span> <span class='hs-str'>"Koen"</span> <span class='hs-keyword'>then</span> <span class='hs-varid'>putStrLn</span> <span class='hs-str'>"Debugging Haskell is fun"</span> <span class='hs-keyword'>else</span>
+  <span class='hs-varid'>putStrLn</span> <span class='hs-str'>"I don't know who you are"</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>putStrLn</span>
+  <span class='hs-layout'>(</span><span class='hs-keyword'>if</span> <span class='hs-varid'>name</span> <span class='hs-varop'>==</span> <span class='hs-str'>"Koen"</span> <span class='hs-keyword'>then</span> <span class='hs-str'>"Debugging Haskell is fun"</span> <span class='hs-keyword'>else</span>
+     <span class='hs-str'>"I don't know who you are"</span><span class='hs-layout'>)</span></pre>
+<span class='note'>Note: increases laziness</span>
+</div>
+
+<div class="hint8 file9">
+./Inter/plusOne.hs:7:8: Error: Use print<br/>
+Found<br/>
+<pre><span class='hs-definition'>putStrLn</span> <span class='hs-layout'>(</span><span class='hs-varid'>show</span> <span class='hs-layout'>(</span><span class='hs-varid'>add</span> <span class='hs-num'>100</span> <span class='hs-num'>67</span><span class='hs-layout'>)</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-layout'>(</span><span class='hs-varid'>add</span> <span class='hs-num'>100</span> <span class='hs-num'>67</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+<div class="hint8 file10">
+./Inter/power.hs:1:8: Error: Use print<br/>
+Found<br/>
+<pre><span class='hs-definition'>putStrLn</span> <span class='hs-layout'>(</span><span class='hs-varid'>show</span> <span class='hs-layout'>(</span><span class='hs-varid'>power</span> <span class='hs-num'>3</span> <span class='hs-num'>4</span><span class='hs-layout'>)</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-layout'>(</span><span class='hs-varid'>power</span> <span class='hs-num'>3</span> <span class='hs-num'>4</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+<div class="hint11 file10">
+./Inter/power.hs:4:13: Warning: Redundant bracket<br/>
+Found<br/>
+<pre><span class='hs-layout'>(</span><span class='hs-varid'>power</span> <span class='hs-varid'>x</span> <span class='hs-layout'>(</span><span class='hs-varid'>y</span> <span class='hs-comment'>-</span> <span class='hs-num'>1</span><span class='hs-layout'>)</span><span class='hs-layout'>)</span> <span class='hs-varop'>*</span> <span class='hs-varid'>x</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>power</span> <span class='hs-varid'>x</span> <span class='hs-layout'>(</span><span class='hs-varid'>y</span> <span class='hs-comment'>-</span> <span class='hs-num'>1</span><span class='hs-layout'>)</span> <span class='hs-varop'>*</span> <span class='hs-varid'>x</span></pre>
+
+</div>
+
+<div class="hint8 file4">
+./Inter/factorial.hs:1:8: Error: Use print<br/>
+Found<br/>
+<pre><span class='hs-definition'>putStrLn</span> <span class='hs-layout'>(</span><span class='hs-varid'>show</span> <span class='hs-layout'>(</span><span class='hs-varid'>factorial</span> <span class='hs-num'>8</span><span class='hs-layout'>)</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-layout'>(</span><span class='hs-varid'>factorial</span> <span class='hs-num'>8</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+<div class="hint1 file6">
+./Inter/for.hs:9:26: Error: Redundant do<br/>
+Found<br/>
+<pre><span class='hs-keyword'>do</span> <span class='hs-varid'>return</span> <span class='hs-conid'>()</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>return</span> <span class='hs-conid'>()</span></pre>
+
+</div>
+
+<div class="hint3 file5">
+./Inter/folds.hs:30:8: Error: Use and<br/>
+Found<br/>
+<pre><span class='hs-definition'>foldr</span> <span class='hs-layout'>(</span><span class='hs-varop'>&amp;&amp;</span><span class='hs-layout'>)</span> <span class='hs-conid'>True</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>and</span></pre>
+
+</div>
+
+<div class="hint7 file5">
+./Inter/folds.hs:34:7: Error: Use or<br/>
+Found<br/>
+<pre><span class='hs-definition'>foldr</span> <span class='hs-layout'>(</span><span class='hs-varop'>||</span><span class='hs-layout'>)</span> <span class='hs-conid'>False</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>or</span></pre>
+
+</div>
+
+<div class="hint5 file5">
+./Inter/folds.hs:37:12: Error: Use maximum<br/>
+Found<br/>
+<pre><span class='hs-definition'>foldr1</span> <span class='hs-varid'>max</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>maximum</span></pre>
+
+</div>
+
+<div class="hint6 file5">
+./Inter/folds.hs:40:12: Error: Use minimum<br/>
+Found<br/>
+<pre><span class='hs-definition'>foldr1</span> <span class='hs-varid'>min</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>minimum</span></pre>
+
+</div>
+
+<div class="hint8 file8">
+./Inter/morelists.hs:32:8: Error: Use print<br/>
+Found<br/>
+<pre><span class='hs-definition'>putStrLn</span> <span class='hs-layout'>(</span><span class='hs-varid'>show</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-varid'>list1</span></pre>
+
+</div>
+
+<div class="hint8 file8">
+./Inter/morelists.hs:33:8: Error: Use print<br/>
+Found<br/>
+<pre><span class='hs-definition'>putStrLn</span> <span class='hs-layout'>(</span><span class='hs-varid'>show</span> <span class='hs-layout'>(</span><span class='hs-varid'>takeInt</span> <span class='hs-num'>5</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-layout'>(</span><span class='hs-varid'>takeInt</span> <span class='hs-num'>5</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+<div class="hint8 file8">
+./Inter/morelists.hs:34:8: Error: Use print<br/>
+Found<br/>
+<pre><span class='hs-definition'>putStrLn</span> <span class='hs-layout'>(</span><span class='hs-varid'>show</span> <span class='hs-layout'>(</span><span class='hs-varid'>dropInt</span> <span class='hs-num'>5</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-layout'>(</span><span class='hs-varid'>dropInt</span> <span class='hs-num'>5</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+<div class="hint8 file8">
+./Inter/morelists.hs:35:8: Error: Use print<br/>
+Found<br/>
+<pre><span class='hs-definition'>putStrLn</span> <span class='hs-layout'>(</span><span class='hs-varid'>show</span> <span class='hs-layout'>(</span><span class='hs-varid'>sumInt</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-layout'>(</span><span class='hs-varid'>sumInt</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+<div class="hint8 file8">
+./Inter/morelists.hs:36:8: Error: Use print<br/>
+Found<br/>
+<pre><span class='hs-definition'>putStrLn</span> <span class='hs-layout'>(</span><span class='hs-varid'>show</span> <span class='hs-layout'>(</span><span class='hs-varid'>scanSum</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-layout'>(</span><span class='hs-varid'>scanSum</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+<div class="hint8 file8">
+./Inter/morelists.hs:37:8: Error: Use print<br/>
+Found<br/>
+<pre><span class='hs-definition'>putStrLn</span> <span class='hs-layout'>(</span><span class='hs-varid'>show</span> <span class='hs-layout'>(</span><span class='hs-varid'>diffs</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span><span class='hs-layout'>)</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>print</span> <span class='hs-layout'>(</span><span class='hs-varid'>diffs</span> <span class='hs-varid'>list1</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+<div class="hint12 file8">
+./Inter/morelists.hs:51:1: Warning: Use foldr<br/>
+Found<br/>
+<pre><span class='hs-definition'>sumInt</span> <span class='hs-conid'>[]</span> <span class='hs-keyglyph'>=</span> <span class='hs-num'>0</span>
+<span class='hs-definition'>sumInt</span> <span class='hs-layout'>(</span><span class='hs-varid'>x</span> <span class='hs-conop'>:</span> <span class='hs-varid'>xs</span><span class='hs-layout'>)</span> <span class='hs-keyglyph'>=</span> <span class='hs-varid'>x</span> <span class='hs-varop'>+</span> <span class='hs-varid'>sumInt</span> <span class='hs-varid'>xs</span></pre>
+Why not<br/>
+<pre><span class='hs-definition'>sumInt</span> <span class='hs-varid'>xs</span> <span class='hs-keyglyph'>=</span> <span class='hs-varid'>foldr</span> <span class='hs-layout'>(</span><span class='hs-varop'>+</span><span class='hs-layout'>)</span> <span class='hs-num'>0</span> <span class='hs-varid'>xs</span></pre>
+
+</div>
+
+<div class="hint9 file7">
+./Inter/lambda.hs:9:14: Warning: Avoid lambda<br/>
+Found<br/>
+<pre><span class='hs-keyglyph'>\</span> <span class='hs-varid'>x</span> <span class='hs-keyglyph'>-&gt;</span> <span class='hs-varid'>x</span> <span class='hs-varop'>+</span> <span class='hs-num'>3</span></pre>
+Why not<br/>
+<pre><span class='hs-layout'>(</span><span class='hs-varop'>+</span> <span class='hs-num'>3</span><span class='hs-layout'>)</span></pre>
+
+</div>
+
+</div>
+</body>
+</html>

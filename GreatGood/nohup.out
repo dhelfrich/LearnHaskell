@@ -1,0 +1,729 @@
+23:19:00.126 I [breakpad.cpp:107                ] Registered Breakpad for product: spotify
+
+23:19:00.137 I [translate.cpp:139               ] Reloading language file
+23:19:00.155 I [translate.cpp:139               ] Reloading language file
+23:19:00.156 I [breakpad.cpp:261                ] Searching for crashdumps: /home/daniel/.cache/spotify/*.dmp
+
+23:19:00.337 D [spirc_manager.cpp:152           ] GAIA: SpircManager::SpircManager, ident_=2f6eb8cb08f8004b451188827a43250fbae44a58
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework bridge-desktop with version 0.26.0
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework import with version 0.1.0
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework shared with version 0.2.3
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app share with version 3.0.27
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework views with version 1.54.8
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app discover with version 1.5.3
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app search-single with version 5.0.6
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework resources with version 0.6.1
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app genre with version 0.29.0
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app collection with version 0.4.91
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app artist with version 1.2.2
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app article with version 0.29.0
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework logging-utils with version 0.0.11
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app finder with version 1.2.9
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework artist-shared with version 0.5.3
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app collection-album with version 0.1.81
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework unstable with version 0.13.1
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app bundles with version 1.3.0
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework revgen-shared with version 0.0.14
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app feed with version 2.0.13
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app search with version 4.0.35
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app messages with version 1.5.2
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework social-artist-shared with version 0.1.5
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework util with version 0.2.4
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app collection-artist with version 0.1.46
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app profile with version 2.0.0
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app notification-popup with version 0.3.6
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app html with version 0.1.0
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework recommendations-shared with version 0.7.13
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework recommendations-shared with version 1.0.0
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework test-utils with version 0.2.0
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app follow with version 2.0.0
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app notification-center with version 2.6.2
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app install with version 1.1.0
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app error with version 1.1.0
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app radio with version 3.1.43
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app suggest with version 4.0.0
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app browse with version 6.29.1
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework api with version 1.38.0
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework api with version 0.3.1
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app test-runner with version 0.2.1
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app onboarding-popup with version 1.0.36
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app playlist-header with version 2.1.12
+23:19:00.349 I [MainView.cpp:1095               ] Registering bundled app album with version 2.0.5
+23:19:00.349 I [MainView.cpp:1098               ] Registering bundled framework playlist-framework with version 0.3.2
+"sni-qt/6563" WARN  16:19:00.430 void StatusNotifierItemFactory::connectToSnw() Invalid interface to SNW_SERVICE 
+23:19:00.458 I [AppManager.cpp:252              ] Creating instance of the application browse.
+23:19:00.468 I [AppManager.cpp:252              ] Creating instance of the application suggest.
+23:19:00.478 I [AppManager.cpp:252              ] Creating instance of the application notification-center.
+23:19:00.478 I [AppManager.cpp:535              ] Removing instance of application notification-center.
+
+23:19:00.485 I [AppManager.cpp:252              ] Creating instance of the application notification-center.
+23:19:00.489 I [offline_manager.cpp:2264        ] Storage has been cleaned
+23:19:00.642 I [AppManager.cpp:252              ] Creating instance of the application feed.
+23:19:00.710 I [MainView.cpp:6858               ] Load complete (0) url: sp://c01b4c453e163e6dde26354ed1393a90f4d60d1a.feed/index.html
+23:19:00.712 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a45.ap.spotify.com:4070
+23:19:00.746 I [suggest.min.js:7                ] Success client-log
+23:19:00.753 3 [playlist_be_toplist.cpp:234     ] [spotify:user:1247345994:top:tracks] Synchronization starting
+23:19:00.798 I [ap_connection_impl.cpp:534      ] Connected to AP: 194.68.28.213:4070
+23:19:00.895 I [MainView.cpp:6858               ] Load complete (0) url: sp://478eb970a7fda4d7a007cd28ab2ac0a6e21422a8.browse/index.html
+23:19:01.445 3 [playlist_be_toplist.cpp:137     ] [spotify:user:1247345994:top:tracks] Updated
+23:19:01.550 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:1247345994:inbox] Synchronization starting: DIFF (from revision 1,b3efd33fc5b73f3df81bfa916b9ee38800a23c11) 
+23:19:01.550 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:1247345994:publishedrootlist] Synchronization starting: DIFF (from revision 17,c1f8e57723b8bfcb08268081b3909595c71e4abc) 
+23:19:01.550 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:1247345994:collectionrootlist] Synchronization starting: DIFF (from revision 2,d56b3d71ab60c55c9f1b3eabc6936a63f25b546d) 
+23:19:01.657 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:shiaochang:playlist:7kgQAvMRvHFAOeFcwNfQc7] Synchronization starting: DIFF (from revision 176,0c03116a5f3d28d1081a3ce1ea58d4be016e8645) 
+23:19:01.928 I [MainView.cpp:6858               ] Load complete (0) url: sp://478eb970a7fda4d7a007cd28ab2ac0a6e21422a8.browse/index.html
+23:19:01.973 3 [playlist_be_pl4_context.cpp:591 ] [spotify:user:1247345994:publishedrootlist]  synchronization error: Hermes error code 405 (unknown)
+23:19:01.973 3 [playlist_be_pl4_context.cpp:688 ] [spotify:user:1247345994:publishedrootlist]   - requesting HEAD from remote.
+23:19:01.973 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:1247345994:inbox] Delta-updated to revision 1,b3efd33fc5b73f3df81bfa916b9ee38800a23c11 (no new changes)
+23:19:01.973 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:1247345994:collectionrootlist] Delta-updated to revision 2,d56b3d71ab60c55c9f1b3eabc6936a63f25b546d (no new changes)
+23:19:01.991 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:shiaochang:playlist:7kgQAvMRvHFAOeFcwNfQc7] Delta-updated to revision 189,5d2a57216f616092fd02d87df7abebab26474336
+23:19:01.995 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:shiaochang:playlist:7kgQAvMRvHFAOeFcwNfQc7] Synchronization starting: DIFF (from revision 189,5d2a57216f616092fd02d87df7abebab26474336) 
+23:19:01.995 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:1247345994:publishedrootlist] Synchronization starting: GET (full reset) (cannot send dump) (from revision 17,c1f8e57723b8bfcb08268081b3909595c71e4abc) 
+23:19:02.176 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:4ORiMCgOe6UxBDqW8SF1Lm] Synchronization starting: DIFF (from revision 1405,ca35f5d043d4394ba133f805cf1ccf1c434285f7) 
+23:19:02.190 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:2Qi8yAzfj1KavAhWz1gaem] Synchronization starting: DIFF (from revision 14,5195fed51f80879c9ee63e4d1920720e9e555c58) 
+23:19:02.191 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:7iiRP3LZPuuoE4dBWWufkw] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+23:19:02.273 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:shiaochang:playlist:7kgQAvMRvHFAOeFcwNfQc7] Delta-updated to revision 189,5d2a57216f616092fd02d87df7abebab26474336 (no new changes)
+23:19:02.279 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:1247345994:publishedrootlist] Snapshot-updated to revision 17,c1f8e57723b8bfcb08268081b3909595c71e4abc
+23:19:02.298 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:4ecQaDJHF55Ls9m2lKIXbI] Synchronization starting: DIFF (from revision 707,b30949e340dbdce90cfa8b95ceac402e4509e502) 
+23:19:02.299 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:2ujjMpFriZ2nayLmrD1Jgl] Synchronization starting: DIFF (from revision 282,9d353d07c2515a9b163c5a330aed707d7d65e666) 
+23:19:02.390 I [MainView.cpp:6858               ] Load complete (0) url: sp://478eb970a7fda4d7a007cd28ab2ac0a6e21422a8.browse/index.html
+23:19:02.584 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:spotify:playlist:7iiRP3LZPuuoE4dBWWufkw] Snapshot-updated to revision 36,b55b03f077caddf73969590fe4254fbc75e9f297
+23:19:02.614 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify:playlist:2ujjMpFriZ2nayLmrD1Jgl] Delta-updated to revision 306,64350e7eda365cf06936babfca7c9f8c8ca274aa
+23:19:02.615 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:2ikvjqFDwalfKdCHkxn79O] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+23:19:02.615 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:2PXdUld4Ueio2pHcB6sM8j] Synchronization starting: DIFF (from revision 385,4f657bcbb6c8ffd884f3e0bbf21d72cf1cacd97e) 
+23:19:02.901 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify:playlist:4ORiMCgOe6UxBDqW8SF1Lm] Delta-updated to revision 1595,b0af0694fc2bada1f11b4415f2d2e58fbc36cd62
+23:19:02.929 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:1B9o7mER9kfxbmsRH9ko4z] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+23:19:02.940 I [MainView.cpp:6858               ] Load complete (0) url: sp://478eb970a7fda4d7a007cd28ab2ac0a6e21422a8.browse/index.html
+23:19:02.984 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify:playlist:2PXdUld4Ueio2pHcB6sM8j] Delta-updated to revision 490,2c4b19e040cfc241c4f1056fa9da3e27b3f763a4
+23:19:03.005 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:lnards:playlist:1RyeIbyFeIJVnNzlGr5KkR] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+23:19:03.016 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify:playlist:2Qi8yAzfj1KavAhWz1gaem] Delta-updated to revision 33,217053f0c81ecbfd30c4adc2d8cd45db9410b0fe
+23:19:03.017 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:spotify:playlist:2ikvjqFDwalfKdCHkxn79O] Snapshot-updated to revision 202,43d2918d510d3dfb001b7464e2eaa9d7cd2b7c18
+23:19:03.036 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:5yolys8XG4q7YfjYGl5Lff] Synchronization starting: DIFF (from revision 1445,6444da4aeeaa7e0ff7862655608f737d46b0ad40) 
+23:19:03.037 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:6uTuhSs7qiEPfCI3QDHXsL] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+23:19:03.160 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify:playlist:4ecQaDJHF55Ls9m2lKIXbI] Delta-updated to revision 885,6b4380be4eed92001a3899f06ec02625aa6dc808
+23:19:03.180 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotifyargentina:playlist:0NYTdFS3zbb2tVQYYxNda1] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+23:19:03.271 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:spotify:playlist:1B9o7mER9kfxbmsRH9ko4z] Snapshot-updated to revision 369,491605a62793d6df29c9997feb58a46ce6e28480
+23:19:03.310 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:1247345994:collectiontracklist:6Pdr5CWPZL85Ek1sRy3fT0] Synchronization starting: DIFF (from revision 4,a195cfb78d315336b1c2e4d19b02903a64ab3ddf) 
+23:19:03.356 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:spotify:playlist:6uTuhSs7qiEPfCI3QDHXsL] Snapshot-updated to revision 310,b39ef9a5d4773ed3c1da32b3ec3fd9df705f3f9a
+23:19:03.358 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify:playlist:5yolys8XG4q7YfjYGl5Lff] Delta-updated to revision 1451,b07c17e3d22911a42a1a6d4eae524adc0ebcc2a2
+23:19:03.455 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:spotifyargentina:playlist:0NYTdFS3zbb2tVQYYxNda1] Snapshot-updated to revision 352,6e55000459a66c55d0d13f596af75e5b1c26779c
+23:19:03.574 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:lnards:playlist:1RyeIbyFeIJVnNzlGr5KkR] Snapshot-updated to revision 658,1d1df52ddd1dd95995c44c7b67affcfc4f3f428b
+23:19:03.574 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:1247345994:collectiontracklist:6Pdr5CWPZL85Ek1sRy3fT0] Delta-updated to revision 4,a195cfb78d315336b1c2e4d19b02903a64ab3ddf (no new changes)
+23:19:03.710 I [suggest.min.js:7                ] Success client-log
+23:19:04.340 I [suggest.min.js:7                ] Success client-log
+23:19:05.371 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:6LBZwjKY0VZLoe79qeGcCF] Synchronization starting: DIFF (from revision 427,c2b257a0205da26d6aab15464ae03b3924add173) 
+23:19:06.092 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify:playlist:6LBZwjKY0VZLoe79qeGcCF] Delta-updated to revision 435,9c72a22dd35e20c8fe4f691dddc76db835d2bb5d
+23:19:10.759 I [ApplicationPage.cpp:183         ] Keeping application browse alive for 60000 ms.
+23:19:10.765 I [AppManager.cpp:252              ] Creating instance of the application album.
+23:19:10.771 I [suggest.min.js:7                ] Success client-log
+23:19:10.817 I [MainView.cpp:6858               ] Load complete (0) url: sp://588334b2e90a9d593b1e55dc0d4b71c7ae383ead.album/index.html
+23:19:12.436 I [offline_manager.cpp:2042        ] 76 files locked. 96 images locked. 0 files unlocked. 0 images unlocked
+23:19:12.956 I [audio_driver_linux.cpp:18       ] Using PulseAudio
+23:19:12.956 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/47451b1dd0630e01e12aa2d89877e2bf7df0e72c 
+23:19:12.956 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:1EUj3EeDYX5yldkBXkNDJP, index=3, position=0, paused=0
+23:19:12.956 D [spirc_manager.cpp:1712          ] GAIA: SpircManager::becomeActiveDevice, isActiveDevice=true
+23:19:12.956 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file 47451b1dd0630e01e12aa2d89877e2bf7df0e72c
+23:19:13.082 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 524288) from CDN url: http://audio2.spotify.com/audio/47451b1dd0630e01e12aa2d89877e2bf7df0e72c?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d6f9e2f02d5a8db6cb298914ef879e4a722281e03e7b2f510fb8f6b2e8152fcdad91ab10f88fac331e165a4ff0366ca1e1a1796a2fca4d4b30cc21573c9892 
+23:19:13.423 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:13.881 I [cdn_chunk_downloader.cpp:199    ] Request for file 47451b1dd0630e01e12aa2d89877e2bf7df0e72c complete (code: 0)
+23:19:14.019 I [cdn_chunk_downloader.cpp:72     ] Requesting data (524288 -> 1048576) from CDN url: http://audio2.spotify.com/audio/47451b1dd0630e01e12aa2d89877e2bf7df0e72c?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d6f9e2f02d5a8db6cb298914ef879e4a722281e03e7b2f510fb8f6b2e8152fcdad91ab10f88fac331e165a4ff0366ca1e1a1796a2fca4d4b30cc21573c9892 
+23:19:14.080 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:14.435 I [cdn_chunk_downloader.cpp:199    ] Request for file 47451b1dd0630e01e12aa2d89877e2bf7df0e72c complete (code: 0)
+23:19:14.619 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1048576 -> 1572864) from CDN url: http://audio2.spotify.com/audio/47451b1dd0630e01e12aa2d89877e2bf7df0e72c?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d6f9e2f02d5a8db6cb298914ef879e4a722281e03e7b2f510fb8f6b2e8152fcdad91ab10f88fac331e165a4ff0366ca1e1a1796a2fca4d4b30cc21573c9892 
+23:19:14.678 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:15.070 I [cdn_chunk_downloader.cpp:199    ] Request for file 47451b1dd0630e01e12aa2d89877e2bf7df0e72c complete (code: 0)
+23:19:15.219 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1572864 -> 2097152) from CDN url: http://audio2.spotify.com/audio/47451b1dd0630e01e12aa2d89877e2bf7df0e72c?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d6f9e2f02d5a8db6cb298914ef879e4a722281e03e7b2f510fb8f6b2e8152fcdad91ab10f88fac331e165a4ff0366ca1e1a1796a2fca4d4b30cc21573c9892 
+23:19:15.278 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:15.728 I [cdn_chunk_downloader.cpp:199    ] Request for file 47451b1dd0630e01e12aa2d89877e2bf7df0e72c complete (code: 0)
+23:19:15.819 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2097152 -> 2621440) from CDN url: http://audio2.spotify.com/audio/47451b1dd0630e01e12aa2d89877e2bf7df0e72c?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d6f9e2f02d5a8db6cb298914ef879e4a722281e03e7b2f510fb8f6b2e8152fcdad91ab10f88fac331e165a4ff0366ca1e1a1796a2fca4d4b30cc21573c9892 
+23:19:15.880 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:16.394 I [cdn_chunk_downloader.cpp:199    ] Request for file 47451b1dd0630e01e12aa2d89877e2bf7df0e72c complete (code: 0)
+23:19:16.444 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2621440 -> 3017944) from CDN url: http://audio2.spotify.com/audio/47451b1dd0630e01e12aa2d89877e2bf7df0e72c?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d6f9e2f02d5a8db6cb298914ef879e4a722281e03e7b2f510fb8f6b2e8152fcdad91ab10f88fac331e165a4ff0366ca1e1a1796a2fca4d4b30cc21573c9892 
+23:19:16.503 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:16.960 I [cdn_chunk_downloader.cpp:199    ] Request for file 47451b1dd0630e01e12aa2d89877e2bf7df0e72c complete (code: 0)
+23:19:30.600 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3 
+23:19:30.600 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:3XZN4wXwG2o0OadHWExzPr, index=0, position=0, paused=0
+23:19:30.600 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3
+23:19:31.107 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 524288) from CDN url: http://audio2.spotify.com/audio/e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d4fbe2f02d5a8db6ca8979e7db2fa0e49b1de04041ee7ddd4bd51bcf49eee937e207e1344590f5a9d74a2b0daae77dd2667f753245acb296e73837bf30e3ae 
+23:19:31.397 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:19:32.804 I [cdn_chunk_downloader.cpp:199    ] Request for file e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3 complete (code: 0)
+23:19:32.819 I [cdn_chunk_downloader.cpp:72     ] Requesting data (524288 -> 1048576) from CDN url: http://audio2.spotify.com/audio/e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d4fbe2f02d5a8db6ca8979e7db2fa0e49b1de04041ee7ddd4bd51bcf49eee937e207e1344590f5a9d74a2b0daae77dd2667f753245acb296e73837bf30e3ae 
+23:19:32.876 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:33.617 I [cdn_chunk_downloader.cpp:199    ] Request for file e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3 complete (code: 0)
+23:19:33.667 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1048576 -> 1572864) from CDN url: http://audio2.spotify.com/audio/e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d4fbe2f02d5a8db6ca8979e7db2fa0e49b1de04041ee7ddd4bd51bcf49eee937e207e1344590f5a9d74a2b0daae77dd2667f753245acb296e73837bf30e3ae 
+23:19:33.730 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:34.409 I [cdn_chunk_downloader.cpp:199    ] Request for file e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3 complete (code: 0)
+23:19:34.459 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1572864 -> 2097152) from CDN url: http://audio2.spotify.com/audio/e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d4fbe2f02d5a8db6ca8979e7db2fa0e49b1de04041ee7ddd4bd51bcf49eee937e207e1344590f5a9d74a2b0daae77dd2667f753245acb296e73837bf30e3ae 
+23:19:34.521 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:35.132 I [cdn_chunk_downloader.cpp:199    ] Request for file e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3 complete (code: 0)
+23:19:35.219 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2097152 -> 2621440) from CDN url: http://audio2.spotify.com/audio/e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d4fbe2f02d5a8db6ca8979e7db2fa0e49b1de04041ee7ddd4bd51bcf49eee937e207e1344590f5a9d74a2b0daae77dd2667f753245acb296e73837bf30e3ae 
+23:19:35.281 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:35.866 I [cdn_chunk_downloader.cpp:199    ] Request for file e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3 complete (code: 0)
+23:19:36.019 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2621440 -> 3145728) from CDN url: http://audio2.spotify.com/audio/e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d4fbe2f02d5a8db6ca8979e7db2fa0e49b1de04041ee7ddd4bd51bcf49eee937e207e1344590f5a9d74a2b0daae77dd2667f753245acb296e73837bf30e3ae 
+23:19:36.079 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:36.609 I [cdn_chunk_downloader.cpp:199    ] Request for file e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3 complete (code: 0)
+23:19:36.659 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3145728 -> 3464700) from CDN url: http://audio2.spotify.com/audio/e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d0d4fbe2f02d5a8db6ca8979e7db2fa0e49b1de04041ee7ddd4bd51bcf49eee937e207e1344590f5a9d74a2b0daae77dd2667f753245acb296e73837bf30e3ae 
+23:19:36.718 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:19:37.005 I [cdn_chunk_downloader.cpp:199    ] Request for file e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3 complete (code: 0)
+23:19:49.100 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:20:10.759 I [ApplicationPage.cpp:66          ] Unloading application browse.
+23:20:10.759 I [AppManager.cpp:535              ] Removing instance of application browse.
+
+23:22:31.595 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file 37666a7fb3c3a367fe4f14111c139a2765977cba
+23:22:31.656 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 524288) from CDN url: http://audio2.spotify.com/audio/37666a7fb3c3a367fe4f14111c139a2765977cba?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d2ffff27e2716475d6a0d661da4684c86c3ab0cfc57549d4cf487994a0ee84a140bef2984ca17962c286cd6157e59ffef750e2bd826dfe72994846d11ba07415 
+23:22:31.719 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:22:32.228 I [cdn_chunk_downloader.cpp:199    ] Request for file 37666a7fb3c3a367fe4f14111c139a2765977cba complete (code: 0)
+23:22:32.228 I [cdn_chunk_downloader.cpp:72     ] Requesting data (524288 -> 1048576) from CDN url: http://audio2.spotify.com/audio/37666a7fb3c3a367fe4f14111c139a2765977cba?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d2ffff27e2716475d6a0d661da4684c86c3ab0cfc57549d4cf487994a0ee84a140bef2984ca17962c286cd6157e59ffef750e2bd826dfe72994846d11ba07415 
+23:22:32.286 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:22:32.897 I [cdn_chunk_downloader.cpp:199    ] Request for file 37666a7fb3c3a367fe4f14111c139a2765977cba complete (code: 0)
+23:22:32.897 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1048576 -> 1572864) from CDN url: http://audio2.spotify.com/audio/37666a7fb3c3a367fe4f14111c139a2765977cba?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d2ffff27e2716475d6a0d661da4684c86c3ab0cfc57549d4cf487994a0ee84a140bef2984ca17962c286cd6157e59ffef750e2bd826dfe72994846d11ba07415 
+23:22:32.955 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:22:33.519 I [cdn_chunk_downloader.cpp:199    ] Request for file 37666a7fb3c3a367fe4f14111c139a2765977cba complete (code: 0)
+23:22:33.519 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1572864 -> 2097152) from CDN url: http://audio2.spotify.com/audio/37666a7fb3c3a367fe4f14111c139a2765977cba?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d2ffff27e2716475d6a0d661da4684c86c3ab0cfc57549d4cf487994a0ee84a140bef2984ca17962c286cd6157e59ffef750e2bd826dfe72994846d11ba07415 
+23:22:33.579 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:22:34.135 I [cdn_chunk_downloader.cpp:199    ] Request for file 37666a7fb3c3a367fe4f14111c139a2765977cba complete (code: 0)
+23:22:34.135 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2097152 -> 2621440) from CDN url: http://audio2.spotify.com/audio/37666a7fb3c3a367fe4f14111c139a2765977cba?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d2ffff27e2716475d6a0d661da4684c86c3ab0cfc57549d4cf487994a0ee84a140bef2984ca17962c286cd6157e59ffef750e2bd826dfe72994846d11ba07415 
+23:22:34.192 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:22:34.700 I [cdn_chunk_downloader.cpp:199    ] Request for file 37666a7fb3c3a367fe4f14111c139a2765977cba complete (code: 0)
+23:22:34.700 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2621440 -> 3115076) from CDN url: http://audio2.spotify.com/audio/37666a7fb3c3a367fe4f14111c139a2765977cba?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d2ffff27e2716475d6a0d661da4684c86c3ab0cfc57549d4cf487994a0ee84a140bef2984ca17962c286cd6157e59ffef750e2bd826dfe72994846d11ba07415 
+23:22:34.758 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:22:35.320 I [cdn_chunk_downloader.cpp:199    ] Request for file 37666a7fb3c3a367fe4f14111c139a2765977cba complete (code: 0)
+23:22:57.691 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+23:22:57.916 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:23:01.021 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:23:01.024 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/06635a3d39a8da4b617f08e5b39fc89b56c136bb 
+23:23:01.024 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:3mjQWntZaTIysjKdQZWlgG, index=0, position=0, paused=0
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:24:12.959 I [offline_manager.cpp:2071        ] 0 files unlocked. 3 images unlocked
+23:27:07.680 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+23:27:17.967 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:27:19.957 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:27:19.957 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:0Wk7Fz9acUiWH7MAj4fJPN, index=0, position=0, paused=0
+23:27:19.958 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file 4df54086d9b19f84078117898511859a383e33a3
+23:27:20.115 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 524288) from CDN url: http://audio2.spotify.com/audio/4df54086d9b19f84078117898511859a383e33a3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d507ae56f3d3447d52c4e95909a9de1db33f3e072fc4a9df549869e076200eb172670f808aef534280d19182a5333763458a31ada947d36b3b38c864412a71e7 
+23:27:20.176 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:27:20.233 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/4df54086d9b19f84078117898511859a383e33a3 
+23:27:20.643 I [cdn_chunk_downloader.cpp:199    ] Request for file 4df54086d9b19f84078117898511859a383e33a3 complete (code: 0)
+23:27:20.819 I [cdn_chunk_downloader.cpp:72     ] Requesting data (524288 -> 1048576) from CDN url: http://audio2.spotify.com/audio/4df54086d9b19f84078117898511859a383e33a3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d507ae56f3d3447d52c4e95909a9de1db33f3e072fc4a9df549869e076200eb172670f808aef534280d19182a5333763458a31ada947d36b3b38c864412a71e7 
+23:27:20.876 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:27:21.437 I [cdn_chunk_downloader.cpp:199    ] Request for file 4df54086d9b19f84078117898511859a383e33a3 complete (code: 0)
+23:27:21.619 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1048576 -> 1572864) from CDN url: http://audio2.spotify.com/audio/4df54086d9b19f84078117898511859a383e33a3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d507ae56f3d3447d52c4e95909a9de1db33f3e072fc4a9df549869e076200eb172670f808aef534280d19182a5333763458a31ada947d36b3b38c864412a71e7 
+23:27:21.676 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:27:22.183 I [cdn_chunk_downloader.cpp:199    ] Request for file 4df54086d9b19f84078117898511859a383e33a3 complete (code: 0)
+23:27:22.233 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1572864 -> 2097152) from CDN url: http://audio2.spotify.com/audio/4df54086d9b19f84078117898511859a383e33a3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d507ae56f3d3447d52c4e95909a9de1db33f3e072fc4a9df549869e076200eb172670f808aef534280d19182a5333763458a31ada947d36b3b38c864412a71e7 
+23:27:22.293 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:27:22.798 I [cdn_chunk_downloader.cpp:199    ] Request for file 4df54086d9b19f84078117898511859a383e33a3 complete (code: 0)
+23:27:22.820 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2097152 -> 2621440) from CDN url: http://audio2.spotify.com/audio/4df54086d9b19f84078117898511859a383e33a3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d507ae56f3d3447d52c4e95909a9de1db33f3e072fc4a9df549869e076200eb172670f808aef534280d19182a5333763458a31ada947d36b3b38c864412a71e7 
+23:27:22.879 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:27:23.379 I [cdn_chunk_downloader.cpp:199    ] Request for file 4df54086d9b19f84078117898511859a383e33a3 complete (code: 0)
+23:27:23.430 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2621440 -> 3145728) from CDN url: http://audio2.spotify.com/audio/4df54086d9b19f84078117898511859a383e33a3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d507ae56f3d3447d52c4e95909a9de1db33f3e072fc4a9df549869e076200eb172670f808aef534280d19182a5333763458a31ada947d36b3b38c864412a71e7 
+23:27:23.492 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:27:24.100 I [cdn_chunk_downloader.cpp:199    ] Request for file 4df54086d9b19f84078117898511859a383e33a3 complete (code: 0)
+23:27:24.219 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3145728 -> 3670016) from CDN url: http://audio2.spotify.com/audio/4df54086d9b19f84078117898511859a383e33a3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d507ae56f3d3447d52c4e95909a9de1db33f3e072fc4a9df549869e076200eb172670f808aef534280d19182a5333763458a31ada947d36b3b38c864412a71e7 
+23:27:24.278 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:27:24.834 I [cdn_chunk_downloader.cpp:199    ] Request for file 4df54086d9b19f84078117898511859a383e33a3 complete (code: 0)
+23:27:25.058 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3670016 -> 3804412) from CDN url: http://audio2.spotify.com/audio/4df54086d9b19f84078117898511859a383e33a3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d507ae56f3d3447d52c4e95909a9de1db33f3e072fc4a9df549869e076200eb172670f808aef534280d19182a5333763458a31ada947d36b3b38c864412a71e7 
+23:27:25.119 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:27:25.235 I [cdn_chunk_downloader.cpp:199    ] Request for file 4df54086d9b19f84078117898511859a383e33a3 complete (code: 0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:30:54.671 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:30:56.630 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:30:56.632 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file c6f58d1981597f377a27d87d9cf539043acfcc1d
+23:30:56.632 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:0w70AF94g511z78Zo8YGxi, index=0, position=0, paused=0
+23:30:56.791 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 524288) from CDN url: http://audio2.spotify.com/audio/c6f58d1981597f377a27d87d9cf539043acfcc1d?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d7a82af325a8e5c8d60b5472172d9aa382d1e153d3bd1636bf5f63f62b72e4cf701f9908cedf5dc946951630e46df11e40c86757c013fce9ae4822504b37d529 
+23:30:56.852 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:30:56.919 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/c6f58d1981597f377a27d87d9cf539043acfcc1d 
+23:30:57.361 I [cdn_chunk_downloader.cpp:199    ] Request for file c6f58d1981597f377a27d87d9cf539043acfcc1d complete (code: 0)
+23:30:57.519 I [cdn_chunk_downloader.cpp:72     ] Requesting data (524288 -> 1048576) from CDN url: http://audio2.spotify.com/audio/c6f58d1981597f377a27d87d9cf539043acfcc1d?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d7a82af325a8e5c8d60b5472172d9aa382d1e153d3bd1636bf5f63f62b72e4cf701f9908cedf5dc946951630e46df11e40c86757c013fce9ae4822504b37d529 
+23:30:57.578 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:30:58.184 I [cdn_chunk_downloader.cpp:199    ] Request for file c6f58d1981597f377a27d87d9cf539043acfcc1d complete (code: 0)
+23:30:58.319 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1048576 -> 1572864) from CDN url: http://audio2.spotify.com/audio/c6f58d1981597f377a27d87d9cf539043acfcc1d?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d7a82af325a8e5c8d60b5472172d9aa382d1e153d3bd1636bf5f63f62b72e4cf701f9908cedf5dc946951630e46df11e40c86757c013fce9ae4822504b37d529 
+23:30:58.379 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:30:59.000 I [cdn_chunk_downloader.cpp:199    ] Request for file c6f58d1981597f377a27d87d9cf539043acfcc1d complete (code: 0)
+23:30:59.119 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1572864 -> 2097152) from CDN url: http://audio2.spotify.com/audio/c6f58d1981597f377a27d87d9cf539043acfcc1d?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d7a82af325a8e5c8d60b5472172d9aa382d1e153d3bd1636bf5f63f62b72e4cf701f9908cedf5dc946951630e46df11e40c86757c013fce9ae4822504b37d529 
+23:30:59.178 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:30:59.736 I [cdn_chunk_downloader.cpp:199    ] Request for file c6f58d1981597f377a27d87d9cf539043acfcc1d complete (code: 0)
+23:30:59.919 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2097152 -> 2621440) from CDN url: http://audio2.spotify.com/audio/c6f58d1981597f377a27d87d9cf539043acfcc1d?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d7a82af325a8e5c8d60b5472172d9aa382d1e153d3bd1636bf5f63f62b72e4cf701f9908cedf5dc946951630e46df11e40c86757c013fce9ae4822504b37d529 
+23:30:59.976 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:31:00.489 I [cdn_chunk_downloader.cpp:199    ] Request for file c6f58d1981597f377a27d87d9cf539043acfcc1d complete (code: 0)
+23:31:00.539 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2621440 -> 2880332) from CDN url: http://audio2.spotify.com/audio/c6f58d1981597f377a27d87d9cf539043acfcc1d?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b5d7a82af325a8e5c8d60b5472172d9aa382d1e153d3bd1636bf5f63f62b72e4cf701f9908cedf5dc946951630e46df11e40c86757c013fce9ae4822504b37d529 
+23:31:00.598 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:31:00.827 I [cdn_chunk_downloader.cpp:199    ] Request for file c6f58d1981597f377a27d87d9cf539043acfcc1d complete (code: 0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:31:46.333 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+23:33:33.720 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:33:35.762 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:33:35.764 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/3e0f38fea5379fe430ef58b84b385e25556e1186 
+23:33:35.764 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:4UxYhEeF9OUbEhaarph7u3, index=0, position=0, paused=0
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:34:50.158 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+23:35:40.519 3 [playlist_be_pl4_context.cpp:1089] [spotify:user:shiaochang:playlist:7kgQAvMRvHFAOeFcwNfQc7] Got PUB - backend is now at revision 190,f740555d3f5fc8c6de135b88e35ffbf7d236b2f6
+23:35:40.537 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:shiaochang:playlist:7kgQAvMRvHFAOeFcwNfQc7] Delta-updated to revision 190,f740555d3f5fc8c6de135b88e35ffbf7d236b2f6
+23:36:54.621 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:36:56.655 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:36:56.656 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4 
+23:36:56.656 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:4MNw8rTcSLC8TnYEdYhoc1, index=0, position=0, paused=0
+23:36:56.656 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4
+23:36:56.873 I [cdn_chunk_downloader.cpp:72     ] Requesting data (98304 -> 638976) from CDN url: http://audio2.spotify.com/audio/e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d1e00b895d5ee1d7ee041c8909660772922888c9d632c0d7b35e8ef22d8fb06c3b877d9c3c7d3a4eb05765275a3ad170186b61a65a8ca560863c22433cac8216 
+23:36:56.932 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:36:57.444 I [cdn_chunk_downloader.cpp:199    ] Request for file e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4 complete (code: 0)
+23:36:57.545 I [cdn_chunk_downloader.cpp:72     ] Requesting data (638976 -> 1163264) from CDN url: http://audio2.spotify.com/audio/e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d1e00b895d5ee1d7ee041c8909660772922888c9d632c0d7b35e8ef22d8fb06c3b877d9c3c7d3a4eb05765275a3ad170186b61a65a8ca560863c22433cac8216 
+23:36:57.605 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:36:58.170 I [cdn_chunk_downloader.cpp:199    ] Request for file e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4 complete (code: 0)
+23:36:58.320 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1163264 -> 1687552) from CDN url: http://audio2.spotify.com/audio/e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d1e00b895d5ee1d7ee041c8909660772922888c9d632c0d7b35e8ef22d8fb06c3b877d9c3c7d3a4eb05765275a3ad170186b61a65a8ca560863c22433cac8216 
+23:36:58.378 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:36:58.933 I [cdn_chunk_downloader.cpp:199    ] Request for file e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4 complete (code: 0)
+23:36:59.119 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1687552 -> 2211840) from CDN url: http://audio2.spotify.com/audio/e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d1e00b895d5ee1d7ee041c8909660772922888c9d632c0d7b35e8ef22d8fb06c3b877d9c3c7d3a4eb05765275a3ad170186b61a65a8ca560863c22433cac8216 
+23:36:59.177 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:36:59.686 I [cdn_chunk_downloader.cpp:199    ] Request for file e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4 complete (code: 0)
+23:36:59.737 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2211840 -> 2736128) from CDN url: http://audio2.spotify.com/audio/e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d1e00b895d5ee1d7ee041c8909660772922888c9d632c0d7b35e8ef22d8fb06c3b877d9c3c7d3a4eb05765275a3ad170186b61a65a8ca560863c22433cac8216 
+23:36:59.799 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:37:00.303 I [cdn_chunk_downloader.cpp:199    ] Request for file e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4 complete (code: 0)
+23:37:00.353 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2736128 -> 3260416) from CDN url: http://audio2.spotify.com/audio/e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d1e00b895d5ee1d7ee041c8909660772922888c9d632c0d7b35e8ef22d8fb06c3b877d9c3c7d3a4eb05765275a3ad170186b61a65a8ca560863c22433cac8216 
+23:37:00.411 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:37:00.900 I [cdn_chunk_downloader.cpp:199    ] Request for file e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4 complete (code: 0)
+23:37:00.950 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3260416 -> 3645972) from CDN url: http://audio2.spotify.com/audio/e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d1e00b895d5ee1d7ee041c8909660772922888c9d632c0d7b35e8ef22d8fb06c3b877d9c3c7d3a4eb05765275a3ad170186b61a65a8ca560863c22433cac8216 
+23:37:01.011 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:37:01.447 I [cdn_chunk_downloader.cpp:199    ] Request for file e3de03a2e29f761fcdf3b8b4702f6525fda5c1d4 complete (code: 0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:39:09.805 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+23:40:29.120 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:40:31.133 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:40:31.134 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/34516f14915b806e8e3c65d078fcba59544545e0 
+23:40:31.134 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:45BdsGYnwM3fswx6tEe6YG, index=0, position=0, paused=0
+23:40:31.134 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file 34516f14915b806e8e3c65d078fcba59544545e0
+23:40:31.349 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 540672) from CDN url: http://audio2.spotify.com/audio/34516f14915b806e8e3c65d078fcba59544545e0?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d33c371b56dedacabc71b138ba118a1fff9b4bb9bf09f76e1e28356eaa230c0d02e08490cde0c0a11b5a67db05e9c1459fe1936faffa453f842ecb1aeaec0d51 
+23:40:31.408 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:40:31.765 I [cdn_chunk_downloader.cpp:199    ] Request for file 34516f14915b806e8e3c65d078fcba59544545e0 complete (code: 0)
+23:40:31.819 I [cdn_chunk_downloader.cpp:72     ] Requesting data (540672 -> 1064960) from CDN url: http://audio2.spotify.com/audio/34516f14915b806e8e3c65d078fcba59544545e0?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d33c371b56dedacabc71b138ba118a1fff9b4bb9bf09f76e1e28356eaa230c0d02e08490cde0c0a11b5a67db05e9c1459fe1936faffa453f842ecb1aeaec0d51 
+23:40:31.879 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:40:32.567 I [cdn_chunk_downloader.cpp:199    ] Request for file 34516f14915b806e8e3c65d078fcba59544545e0 complete (code: 0)
+23:40:32.619 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1064960 -> 1589248) from CDN url: http://audio2.spotify.com/audio/34516f14915b806e8e3c65d078fcba59544545e0?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d33c371b56dedacabc71b138ba118a1fff9b4bb9bf09f76e1e28356eaa230c0d02e08490cde0c0a11b5a67db05e9c1459fe1936faffa453f842ecb1aeaec0d51 
+23:40:32.681 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:40:33.293 I [cdn_chunk_downloader.cpp:199    ] Request for file 34516f14915b806e8e3c65d078fcba59544545e0 complete (code: 0)
+23:40:33.420 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1589248 -> 2113536) from CDN url: http://audio2.spotify.com/audio/34516f14915b806e8e3c65d078fcba59544545e0?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d33c371b56dedacabc71b138ba118a1fff9b4bb9bf09f76e1e28356eaa230c0d02e08490cde0c0a11b5a67db05e9c1459fe1936faffa453f842ecb1aeaec0d51 
+23:40:33.478 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:40:34.047 I [cdn_chunk_downloader.cpp:199    ] Request for file 34516f14915b806e8e3c65d078fcba59544545e0 complete (code: 0)
+23:40:34.219 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2113536 -> 2637824) from CDN url: http://audio2.spotify.com/audio/34516f14915b806e8e3c65d078fcba59544545e0?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d33c371b56dedacabc71b138ba118a1fff9b4bb9bf09f76e1e28356eaa230c0d02e08490cde0c0a11b5a67db05e9c1459fe1936faffa453f842ecb1aeaec0d51 
+23:40:34.277 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:40:34.837 I [cdn_chunk_downloader.cpp:199    ] Request for file 34516f14915b806e8e3c65d078fcba59544545e0 complete (code: 0)
+23:40:35.019 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2637824 -> 3162112) from CDN url: http://audio2.spotify.com/audio/34516f14915b806e8e3c65d078fcba59544545e0?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d33c371b56dedacabc71b138ba118a1fff9b4bb9bf09f76e1e28356eaa230c0d02e08490cde0c0a11b5a67db05e9c1459fe1936faffa453f842ecb1aeaec0d51 
+23:40:35.079 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:40:35.590 I [cdn_chunk_downloader.cpp:199    ] Request for file 34516f14915b806e8e3c65d078fcba59544545e0 complete (code: 0)
+23:40:35.641 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3162112 -> 3271224) from CDN url: http://audio2.spotify.com/audio/34516f14915b806e8e3c65d078fcba59544545e0?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d33c371b56dedacabc71b138ba118a1fff9b4bb9bf09f76e1e28356eaa230c0d02e08490cde0c0a11b5a67db05e9c1459fe1936faffa453f842ecb1aeaec0d51 
+23:40:35.704 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:40:35.819 I [cdn_chunk_downloader.cpp:199    ] Request for file 34516f14915b806e8e3c65d078fcba59544545e0 complete (code: 0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:43:31.486 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:43:33.464 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:43:33.465 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file be3901aea692127653b4b6d8eefc04ebda05a84b
+23:43:33.465 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:49TD0OYcUEhBcOH6vXGzI3, index=0, position=0, paused=0
+23:43:33.629 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 524288) from CDN url: http://audio2.spotify.com/audio/be3901aea692127653b4b6d8eefc04ebda05a84b?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d5dcf7afd8dec8cdddeb927ac36e94e24c2a5140c3431d2a31cf9a2483761f7f0326a6fdec250ec56b81ff2c43b283a3719e7658a32b931a157c56e79a9c24fd 
+23:43:33.688 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:43:33.750 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/be3901aea692127653b4b6d8eefc04ebda05a84b 
+23:43:34.313 I [cdn_chunk_downloader.cpp:199    ] Request for file be3901aea692127653b4b6d8eefc04ebda05a84b complete (code: 0)
+23:43:34.363 I [cdn_chunk_downloader.cpp:72     ] Requesting data (524288 -> 1048576) from CDN url: http://audio2.spotify.com/audio/be3901aea692127653b4b6d8eefc04ebda05a84b?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d5dcf7afd8dec8cdddeb927ac36e94e24c2a5140c3431d2a31cf9a2483761f7f0326a6fdec250ec56b81ff2c43b283a3719e7658a32b931a157c56e79a9c24fd 
+23:43:34.421 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:43:35.078 I [cdn_chunk_downloader.cpp:199    ] Request for file be3901aea692127653b4b6d8eefc04ebda05a84b complete (code: 0)
+23:43:35.128 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1048576 -> 1572864) from CDN url: http://audio2.spotify.com/audio/be3901aea692127653b4b6d8eefc04ebda05a84b?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d5dcf7afd8dec8cdddeb927ac36e94e24c2a5140c3431d2a31cf9a2483761f7f0326a6fdec250ec56b81ff2c43b283a3719e7658a32b931a157c56e79a9c24fd 
+23:43:35.187 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:43:35.800 I [cdn_chunk_downloader.cpp:199    ] Request for file be3901aea692127653b4b6d8eefc04ebda05a84b complete (code: 0)
+23:43:35.919 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1572864 -> 2097152) from CDN url: http://audio2.spotify.com/audio/be3901aea692127653b4b6d8eefc04ebda05a84b?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d5dcf7afd8dec8cdddeb927ac36e94e24c2a5140c3431d2a31cf9a2483761f7f0326a6fdec250ec56b81ff2c43b283a3719e7658a32b931a157c56e79a9c24fd 
+23:43:35.978 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:43:36.540 I [cdn_chunk_downloader.cpp:199    ] Request for file be3901aea692127653b4b6d8eefc04ebda05a84b complete (code: 0)
+23:43:36.719 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2097152 -> 2621440) from CDN url: http://audio2.spotify.com/audio/be3901aea692127653b4b6d8eefc04ebda05a84b?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d5dcf7afd8dec8cdddeb927ac36e94e24c2a5140c3431d2a31cf9a2483761f7f0326a6fdec250ec56b81ff2c43b283a3719e7658a32b931a157c56e79a9c24fd 
+23:43:36.777 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:43:37.337 I [cdn_chunk_downloader.cpp:199    ] Request for file be3901aea692127653b4b6d8eefc04ebda05a84b complete (code: 0)
+23:43:37.519 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2621440 -> 2951464) from CDN url: http://audio2.spotify.com/audio/be3901aea692127653b4b6d8eefc04ebda05a84b?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b6d5dcf7afd8dec8cdddeb927ac36e94e24c2a5140c3431d2a31cf9a2483761f7f0326a6fdec250ec56b81ff2c43b283a3719e7658a32b931a157c56e79a9c24fd 
+23:43:37.577 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:43:37.899 I [cdn_chunk_downloader.cpp:199    ] Request for file be3901aea692127653b4b6d8eefc04ebda05a84b complete (code: 0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:45:44.662 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+23:46:12.125 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:46:15.321 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:46:15.322 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/e7603ff2699bfb418ca72e4a91ad102a6d7ed8c3 
+23:46:15.322 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:3XZN4wXwG2o0OadHWExzPr, index=0, position=0, paused=0
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:48:50.626 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+23:49:00.377 I [offline_manager.cpp:2264        ] Storage has been cleaned
+23:49:43.431 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:49:45.470 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:49:45.470 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:1N83QRkKjt3379aAjFi2te, index=0, position=0, paused=0
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:52:32.124 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:52:34.122 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:52:34.122 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:5cFtJ9sQQDf0fbj9e8bs7O, index=0, position=0, paused=0
+23:52:34.122 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3
+23:52:34.286 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 524288) from CDN url: http://audio2.spotify.com/audio/72280d791b6b2ff73a29883cb517639e4bbdd6e3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d02184cd77f56fd31be1bee1378b45748ec8637861f73149fb2dc493211c832fa46905125cf07e5ddce9d2677458850ca0d81b5da5546c0322aeccd26b8a6509 
+23:52:34.449 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/72280d791b6b2ff73a29883cb517639e4bbdd6e3 
+23:52:34.461 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:52:34.948 I [cdn_chunk_downloader.cpp:199    ] Request for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3 complete (code: 0)
+23:52:35.019 I [cdn_chunk_downloader.cpp:72     ] Requesting data (524288 -> 1048576) from CDN url: http://audio2.spotify.com/audio/72280d791b6b2ff73a29883cb517639e4bbdd6e3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d02184cd77f56fd31be1bee1378b45748ec8637861f73149fb2dc493211c832fa46905125cf07e5ddce9d2677458850ca0d81b5da5546c0322aeccd26b8a6509 
+23:52:35.078 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:52:35.577 I [cdn_chunk_downloader.cpp:199    ] Request for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3 complete (code: 0)
+23:52:35.628 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1048576 -> 1572864) from CDN url: http://audio2.spotify.com/audio/72280d791b6b2ff73a29883cb517639e4bbdd6e3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d02184cd77f56fd31be1bee1378b45748ec8637861f73149fb2dc493211c832fa46905125cf07e5ddce9d2677458850ca0d81b5da5546c0322aeccd26b8a6509 
+23:52:35.687 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:52:36.086 I [cdn_chunk_downloader.cpp:199    ] Request for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3 complete (code: 0)
+23:52:36.219 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1572864 -> 2097152) from CDN url: http://audio2.spotify.com/audio/72280d791b6b2ff73a29883cb517639e4bbdd6e3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d02184cd77f56fd31be1bee1378b45748ec8637861f73149fb2dc493211c832fa46905125cf07e5ddce9d2677458850ca0d81b5da5546c0322aeccd26b8a6509 
+23:52:36.277 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:52:36.732 I [cdn_chunk_downloader.cpp:199    ] Request for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3 complete (code: 0)
+23:52:36.820 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2097152 -> 2621440) from CDN url: http://audio2.spotify.com/audio/72280d791b6b2ff73a29883cb517639e4bbdd6e3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d02184cd77f56fd31be1bee1378b45748ec8637861f73149fb2dc493211c832fa46905125cf07e5ddce9d2677458850ca0d81b5da5546c0322aeccd26b8a6509 
+23:52:36.881 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:52:37.443 I [cdn_chunk_downloader.cpp:199    ] Request for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3 complete (code: 0)
+23:52:37.620 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2621440 -> 3145728) from CDN url: http://audio2.spotify.com/audio/72280d791b6b2ff73a29883cb517639e4bbdd6e3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d02184cd77f56fd31be1bee1378b45748ec8637861f73149fb2dc493211c832fa46905125cf07e5ddce9d2677458850ca0d81b5da5546c0322aeccd26b8a6509 
+23:52:37.678 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:52:38.189 I [cdn_chunk_downloader.cpp:199    ] Request for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3 complete (code: 0)
+23:52:38.239 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3145728 -> 3670016) from CDN url: http://audio2.spotify.com/audio/72280d791b6b2ff73a29883cb517639e4bbdd6e3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d02184cd77f56fd31be1bee1378b45748ec8637861f73149fb2dc493211c832fa46905125cf07e5ddce9d2677458850ca0d81b5da5546c0322aeccd26b8a6509 
+23:52:38.298 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:52:38.885 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+23:52:38.914 I [cdn_chunk_downloader.cpp:199    ] Request for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3 complete (code: 0)
+23:52:39.019 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3670016 -> 4194304) from CDN url: http://audio2.spotify.com/audio/72280d791b6b2ff73a29883cb517639e4bbdd6e3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d02184cd77f56fd31be1bee1378b45748ec8637861f73149fb2dc493211c832fa46905125cf07e5ddce9d2677458850ca0d81b5da5546c0322aeccd26b8a6509 
+23:52:39.076 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:52:39.636 I [cdn_chunk_downloader.cpp:199    ] Request for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3 complete (code: 0)
+23:52:39.819 I [cdn_chunk_downloader.cpp:72     ] Requesting data (4194304 -> 4718592) from CDN url: http://audio2.spotify.com/audio/72280d791b6b2ff73a29883cb517639e4bbdd6e3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d02184cd77f56fd31be1bee1378b45748ec8637861f73149fb2dc493211c832fa46905125cf07e5ddce9d2677458850ca0d81b5da5546c0322aeccd26b8a6509 
+23:52:39.876 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:52:40.388 I [cdn_chunk_downloader.cpp:199    ] Request for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3 complete (code: 0)
+23:52:40.438 I [cdn_chunk_downloader.cpp:72     ] Requesting data (4718592 -> 5199820) from CDN url: http://audio2.spotify.com/audio/72280d791b6b2ff73a29883cb517639e4bbdd6e3?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d02184cd77f56fd31be1bee1378b45748ec8637861f73149fb2dc493211c832fa46905125cf07e5ddce9d2677458850ca0d81b5da5546c0322aeccd26b8a6509 
+23:52:40.496 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+23:52:41.073 I [cdn_chunk_downloader.cpp:199    ] Request for file 72280d791b6b2ff73a29883cb517639e4bbdd6e3 complete (code: 0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+23:57:28.670 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+23:57:30.637 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+23:57:30.637 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:1EUj3EeDYX5yldkBXkNDJP, index=0, position=0, paused=0
+23:57:30.919 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/47451b1dd0630e01e12aa2d89877e2bf7df0e72c 
+23:57:32.669 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+00:00:11.329 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+00:00:13.351 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+00:00:13.351 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/792fb86e47357ac2f7e285ecc83ed892eb2bc4e4 
+00:00:13.351 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:7wDyxRoUv2T6qbP6lpkCcH, index=0, position=0, paused=0
+00:00:13.352 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file 792fb86e47357ac2f7e285ecc83ed892eb2bc4e4
+00:00:13.570 I [cdn_chunk_downloader.cpp:72     ] Requesting data (49152 -> 589824) from CDN url: http://audio2.spotify.com/audio/792fb86e47357ac2f7e285ecc83ed892eb2bc4e4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d58a373b57bd96852d390ee312343c0cd807e85dde7d1f36ca7bb5a6c9b5e18d231bdab509cbfce4d1dcccabb069f0fa057a984bef597f6b2060d594379adc10 
+00:00:13.743 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:00:14.222 I [cdn_chunk_downloader.cpp:199    ] Request for file 792fb86e47357ac2f7e285ecc83ed892eb2bc4e4 complete (code: 0)
+00:00:14.465 I [cdn_chunk_downloader.cpp:72     ] Requesting data (589824 -> 1114112) from CDN url: http://audio2.spotify.com/audio/792fb86e47357ac2f7e285ecc83ed892eb2bc4e4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d58a373b57bd96852d390ee312343c0cd807e85dde7d1f36ca7bb5a6c9b5e18d231bdab509cbfce4d1dcccabb069f0fa057a984bef597f6b2060d594379adc10 
+00:00:14.526 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:00:15.120 I [cdn_chunk_downloader.cpp:199    ] Request for file 792fb86e47357ac2f7e285ecc83ed892eb2bc4e4 complete (code: 0)
+00:00:15.219 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1114112 -> 1638400) from CDN url: http://audio2.spotify.com/audio/792fb86e47357ac2f7e285ecc83ed892eb2bc4e4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d58a373b57bd96852d390ee312343c0cd807e85dde7d1f36ca7bb5a6c9b5e18d231bdab509cbfce4d1dcccabb069f0fa057a984bef597f6b2060d594379adc10 
+00:00:15.278 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:00:15.670 I [cdn_chunk_downloader.cpp:199    ] Request for file 792fb86e47357ac2f7e285ecc83ed892eb2bc4e4 complete (code: 0)
+00:00:15.820 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1638400 -> 2162688) from CDN url: http://audio2.spotify.com/audio/792fb86e47357ac2f7e285ecc83ed892eb2bc4e4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d58a373b57bd96852d390ee312343c0cd807e85dde7d1f36ca7bb5a6c9b5e18d231bdab509cbfce4d1dcccabb069f0fa057a984bef597f6b2060d594379adc10 
+00:00:15.878 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:00:16.328 I [cdn_chunk_downloader.cpp:199    ] Request for file 792fb86e47357ac2f7e285ecc83ed892eb2bc4e4 complete (code: 0)
+00:00:16.419 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2162688 -> 2686976) from CDN url: http://audio2.spotify.com/audio/792fb86e47357ac2f7e285ecc83ed892eb2bc4e4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d58a373b57bd96852d390ee312343c0cd807e85dde7d1f36ca7bb5a6c9b5e18d231bdab509cbfce4d1dcccabb069f0fa057a984bef597f6b2060d594379adc10 
+00:00:16.478 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:00:17.029 I [cdn_chunk_downloader.cpp:199    ] Request for file 792fb86e47357ac2f7e285ecc83ed892eb2bc4e4 complete (code: 0)
+00:00:17.219 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2686976 -> 3211264) from CDN url: http://audio2.spotify.com/audio/792fb86e47357ac2f7e285ecc83ed892eb2bc4e4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d58a373b57bd96852d390ee312343c0cd807e85dde7d1f36ca7bb5a6c9b5e18d231bdab509cbfce4d1dcccabb069f0fa057a984bef597f6b2060d594379adc10 
+00:00:17.278 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:00:17.779 I [cdn_chunk_downloader.cpp:199    ] Request for file 792fb86e47357ac2f7e285ecc83ed892eb2bc4e4 complete (code: 0)
+00:00:17.819 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3211264 -> 3735552) from CDN url: http://audio2.spotify.com/audio/792fb86e47357ac2f7e285ecc83ed892eb2bc4e4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d58a373b57bd96852d390ee312343c0cd807e85dde7d1f36ca7bb5a6c9b5e18d231bdab509cbfce4d1dcccabb069f0fa057a984bef597f6b2060d594379adc10 
+00:00:17.877 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:00:18.484 I [cdn_chunk_downloader.cpp:199    ] Request for file 792fb86e47357ac2f7e285ecc83ed892eb2bc4e4 complete (code: 0)
+00:00:18.619 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3735552 -> 4259840) from CDN url: http://audio2.spotify.com/audio/792fb86e47357ac2f7e285ecc83ed892eb2bc4e4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d58a373b57bd96852d390ee312343c0cd807e85dde7d1f36ca7bb5a6c9b5e18d231bdab509cbfce4d1dcccabb069f0fa057a984bef597f6b2060d594379adc10 
+00:00:18.683 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:00:19.235 I [cdn_chunk_downloader.cpp:199    ] Request for file 792fb86e47357ac2f7e285ecc83ed892eb2bc4e4 complete (code: 0)
+00:00:19.420 I [cdn_chunk_downloader.cpp:72     ] Requesting data (4259840 -> 4678468) from CDN url: http://audio2.spotify.com/audio/792fb86e47357ac2f7e285ecc83ed892eb2bc4e4?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d58a373b57bd96852d390ee312343c0cd807e85dde7d1f36ca7bb5a6c9b5e18d231bdab509cbfce4d1dcccabb069f0fa057a984bef597f6b2060d594379adc10 
+00:00:19.477 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:00:19.869 I [cdn_chunk_downloader.cpp:199    ] Request for file 792fb86e47357ac2f7e285ecc83ed892eb2bc4e4 complete (code: 0)
+00:00:41.692 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+00:03:48.703 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:04:36.225 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+00:04:38.223 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+00:04:38.224 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file 333499f0df096d9c1a1d0e838a31b8855deffe91
+00:04:38.224 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:3BkFxCCSxemX2QYMRsbPuu, index=0, position=0, paused=0
+00:04:38.386 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 524288) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:38.450 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:38.519 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/333499f0df096d9c1a1d0e838a31b8855deffe91 
+00:04:38.981 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+00:04:39.119 I [cdn_chunk_downloader.cpp:72     ] Requesting data (524288 -> 1048576) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:39.182 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:39.751 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+00:04:39.920 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1048576 -> 1572864) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:39.981 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:40.537 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+00:04:40.719 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1572864 -> 2097152) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:40.778 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:41.288 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+00:04:41.338 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2097152 -> 2621440) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:41.399 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:41.902 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+00:04:41.952 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2621440 -> 3145728) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:42.014 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:42.629 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+00:04:42.719 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3145728 -> 3670016) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:42.781 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:43.338 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+00:04:43.519 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3670016 -> 4194304) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:43.577 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:44.197 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+00:04:44.320 I [cdn_chunk_downloader.cpp:72     ] Requesting data (4194304 -> 4718592) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:44.378 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:44.987 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+00:04:45.120 I [cdn_chunk_downloader.cpp:72     ] Requesting data (4718592 -> 5242880) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:45.179 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:45.747 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+00:04:45.919 I [cdn_chunk_downloader.cpp:72     ] Requesting data (5242880 -> 5718816) from CDN url: http://audio2.spotify.com/audio/333499f0df096d9c1a1d0e838a31b8855deffe91?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b7d7aa08dc2cf742b92179a8b5fe59145b6242f4b09cced855ad5eda3312c301280de7d4228abb50b5afc2eef4d01c064339120533ed96c44677cd9022258233ee 
+00:04:45.976 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:04:46.476 I [cdn_chunk_downloader.cpp:199    ] Request for file 333499f0df096d9c1a1d0e838a31b8855deffe91 complete (code: 0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+00:09:10.353 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:10:04.647 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+00:10:06.647 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+00:10:06.648 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/670efa557212e54682262099e0aa132e1da239c9 
+00:10:06.648 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:3a61AXiLnRT456B4MeW7mT, index=0, position=0, paused=0
+00:10:06.648 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file 670efa557212e54682262099e0aa132e1da239c9
+00:10:06.865 I [cdn_chunk_downloader.cpp:72     ] Requesting data (16384 -> 557056) from CDN url: http://audio2.spotify.com/audio/670efa557212e54682262099e0aa132e1da239c9?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d1a163e3b410504870e3308888d74f2b0c4e9fdb925b786283dc3ad691a6110303315632db98fc9e1b71eb8e3f62def52907f8a8f264e569edb0b5b11524c2af 
+00:10:06.924 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:10:07.284 I [cdn_chunk_downloader.cpp:199    ] Request for file 670efa557212e54682262099e0aa132e1da239c9 complete (code: 0)
+00:10:07.334 I [cdn_chunk_downloader.cpp:72     ] Requesting data (557056 -> 1081344) from CDN url: http://audio2.spotify.com/audio/670efa557212e54682262099e0aa132e1da239c9?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d1a163e3b410504870e3308888d74f2b0c4e9fdb925b786283dc3ad691a6110303315632db98fc9e1b71eb8e3f62def52907f8a8f264e569edb0b5b11524c2af 
+00:10:07.396 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:10:08.450 I [cdn_chunk_downloader.cpp:199    ] Request for file 670efa557212e54682262099e0aa132e1da239c9 complete (code: 0)
+00:10:08.519 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1081344 -> 1605632) from CDN url: http://audio2.spotify.com/audio/670efa557212e54682262099e0aa132e1da239c9?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d1a163e3b410504870e3308888d74f2b0c4e9fdb925b786283dc3ad691a6110303315632db98fc9e1b71eb8e3f62def52907f8a8f264e569edb0b5b11524c2af 
+00:10:08.578 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:10:09.392 I [cdn_chunk_downloader.cpp:199    ] Request for file 670efa557212e54682262099e0aa132e1da239c9 complete (code: 0)
+00:10:09.519 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1605632 -> 2129920) from CDN url: http://audio2.spotify.com/audio/670efa557212e54682262099e0aa132e1da239c9?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d1a163e3b410504870e3308888d74f2b0c4e9fdb925b786283dc3ad691a6110303315632db98fc9e1b71eb8e3f62def52907f8a8f264e569edb0b5b11524c2af 
+00:10:09.578 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:10:10.296 I [cdn_chunk_downloader.cpp:199    ] Request for file 670efa557212e54682262099e0aa132e1da239c9 complete (code: 0)
+00:10:10.346 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2129920 -> 2654208) from CDN url: http://audio2.spotify.com/audio/670efa557212e54682262099e0aa132e1da239c9?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d1a163e3b410504870e3308888d74f2b0c4e9fdb925b786283dc3ad691a6110303315632db98fc9e1b71eb8e3f62def52907f8a8f264e569edb0b5b11524c2af 
+00:10:10.407 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:10:11.023 I [cdn_chunk_downloader.cpp:199    ] Request for file 670efa557212e54682262099e0aa132e1da239c9 complete (code: 0)
+00:10:11.119 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2654208 -> 3178496) from CDN url: http://audio2.spotify.com/audio/670efa557212e54682262099e0aa132e1da239c9?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d1a163e3b410504870e3308888d74f2b0c4e9fdb925b786283dc3ad691a6110303315632db98fc9e1b71eb8e3f62def52907f8a8f264e569edb0b5b11524c2af 
+00:10:11.179 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:10:11.756 I [cdn_chunk_downloader.cpp:199    ] Request for file 670efa557212e54682262099e0aa132e1da239c9 complete (code: 0)
+00:10:11.944 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3178496 -> 3426532) from CDN url: http://audio2.spotify.com/audio/670efa557212e54682262099e0aa132e1da239c9?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d1a163e3b410504870e3308888d74f2b0c4e9fdb925b786283dc3ad691a6110303315632db98fc9e1b71eb8e3f62def52907f8a8f264e569edb0b5b11524c2af 
+00:10:12.008 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:10:12.252 I [cdn_chunk_downloader.cpp:199    ] Request for file 670efa557212e54682262099e0aa132e1da239c9 complete (code: 0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+00:13:00.759 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:13:22.918 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/37666a7fb3c3a367fe4f14111c139a2765977cba 
+00:13:25.026 I [social_reporter.cpp:193         ] SocialReporter: A track was played
+00:13:25.027 I [head_file_streamer.cpp:106      ] Requesting head file from CDN url: http://heads-ec.spotify.com/head/51272d871b80ac008796681a7bd522ff2aa79a34 
+00:13:25.027 D [spirc_manager.cpp:578           ] GAIA: SpircManager::stpLoad, track=spotify:track:6xnm2T11t4UQaF1YhbGIhD, index=0, position=0, paused=0
+00:13:25.027 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file 51272d871b80ac008796681a7bd522ff2aa79a34
+00:13:25.243 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 540672) from CDN url: http://audio2.spotify.com/audio/51272d871b80ac008796681a7bd522ff2aa79a34?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d3fb097f82fdf81494331259dded1eb4ec1615debebec3d1b03971c822dd7f7f77c41ed231d44a4ab380e03dac4f72d0baed1a3dccf7e5421e701dda3451e757 
+00:13:25.302 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:13:25.607 I [cdn_chunk_downloader.cpp:199    ] Request for file 51272d871b80ac008796681a7bd522ff2aa79a34 complete (code: 0)
+00:13:25.720 I [cdn_chunk_downloader.cpp:72     ] Requesting data (540672 -> 1064960) from CDN url: http://audio2.spotify.com/audio/51272d871b80ac008796681a7bd522ff2aa79a34?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d3fb097f82fdf81494331259dded1eb4ec1615debebec3d1b03971c822dd7f7f77c41ed231d44a4ab380e03dac4f72d0baed1a3dccf7e5421e701dda3451e757 
+00:13:25.783 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:13:26.136 I [cdn_chunk_downloader.cpp:199    ] Request for file 51272d871b80ac008796681a7bd522ff2aa79a34 complete (code: 0)
+00:13:26.319 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1064960 -> 1589248) from CDN url: http://audio2.spotify.com/audio/51272d871b80ac008796681a7bd522ff2aa79a34?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d3fb097f82fdf81494331259dded1eb4ec1615debebec3d1b03971c822dd7f7f77c41ed231d44a4ab380e03dac4f72d0baed1a3dccf7e5421e701dda3451e757 
+00:13:26.380 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:13:26.740 I [cdn_chunk_downloader.cpp:199    ] Request for file 51272d871b80ac008796681a7bd522ff2aa79a34 complete (code: 0)
+00:13:26.919 I [cdn_chunk_downloader.cpp:72     ] Requesting data (1589248 -> 2113536) from CDN url: http://audio2.spotify.com/audio/51272d871b80ac008796681a7bd522ff2aa79a34?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d3fb097f82fdf81494331259dded1eb4ec1615debebec3d1b03971c822dd7f7f77c41ed231d44a4ab380e03dac4f72d0baed1a3dccf7e5421e701dda3451e757 
+00:13:26.979 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:13:27.440 I [cdn_chunk_downloader.cpp:199    ] Request for file 51272d871b80ac008796681a7bd522ff2aa79a34 complete (code: 0)
+00:13:27.521 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2113536 -> 2637824) from CDN url: http://audio2.spotify.com/audio/51272d871b80ac008796681a7bd522ff2aa79a34?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d3fb097f82fdf81494331259dded1eb4ec1615debebec3d1b03971c822dd7f7f77c41ed231d44a4ab380e03dac4f72d0baed1a3dccf7e5421e701dda3451e757 
+00:13:27.583 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:13:28.141 I [cdn_chunk_downloader.cpp:199    ] Request for file 51272d871b80ac008796681a7bd522ff2aa79a34 complete (code: 0)
+00:13:28.320 I [cdn_chunk_downloader.cpp:72     ] Requesting data (2637824 -> 3162112) from CDN url: http://audio2.spotify.com/audio/51272d871b80ac008796681a7bd522ff2aa79a34?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d3fb097f82fdf81494331259dded1eb4ec1615debebec3d1b03971c822dd7f7f77c41ed231d44a4ab380e03dac4f72d0baed1a3dccf7e5421e701dda3451e757 
+00:13:28.378 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:13:29.302 I [cdn_chunk_downloader.cpp:199    ] Request for file 51272d871b80ac008796681a7bd522ff2aa79a34 complete (code: 0)
+00:13:29.353 I [cdn_chunk_downloader.cpp:72     ] Requesting data (3162112 -> 3383188) from CDN url: http://audio2.spotify.com/audio/51272d871b80ac008796681a7bd522ff2aa79a34?ddac5a9fb8b592fc3a2571c9adbccaf704d5f8c09fc85fe2470d9b0fea54b0d3fb097f82fdf81494331259dded1eb4ec1615debebec3d1b03971c822dd7f7f77c41ed231d44a4ab380e03dac4f72d0baed1a3dccf7e5421e701dda3451e757 
+00:13:29.492 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+00:13:29.922 I [cdn_chunk_downloader.cpp:199    ] Request for file 51272d871b80ac008796681a7bd522ff2aa79a34 complete (code: 0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+00:15:35.819 E [rpc_connection.cpp:1197         ] Socket error 103
+00:16:11.149 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:19:18.702 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:22:22.272 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:28:05.041 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:31:37.840 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:38:46.682 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:42:15.754 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:45:48.914 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:48:52.999 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:52:47.649 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+00:57:10.567 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:00:11.314 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:04:51.265 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:08:11.874 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:11:44.162 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:18:17.369 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:21:32.947 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:25:44.122 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:32:08.906 E [rpc_connection.cpp:1197         ] Socket error 103
+01:32:59.374 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:36:03.996 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:39:55.122 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:43:04.294 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:46:40.629 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:51:10.382 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:55:05.015 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+01:58:50.322 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:05:55.186 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:09:56.665 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:13:30.906 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:18:17.970 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:21:32.071 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:22:59.048 E [rpc_connection.cpp:1197         ] Socket error 103
+02:23:46.781 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:28:27.337 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:31:49.832 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:34:55.314 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:38:10.357 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:41:50.062 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:47:05.042 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:51:07.554 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:54:12.311 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+02:58:10.602 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:01:51.379 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:05:18.903 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:09:06.620 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:12:12.570 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:16:50.765 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:20:31.336 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:24:31.123 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:27:43.782 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:33:01.423 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:36:27.501 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:39:49.961 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:43:50.888 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:47:10.217 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:51:28.016 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+03:58:06.954 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+04:01:44.983 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+04:04:46.230 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+04:08:10.969 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:08:33.553 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:15:01.735 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:18:22.676 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:21:25.761 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:40:31.379 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:43:34.773 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:50:29.135 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:53:42.905 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:54:31.796 E [rpc_connection.cpp:1197         ] Socket error 103
+06:55:47.209 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:59:29.513 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:03:03.162 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:06:14.481 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:26:30.218 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:29:36.334 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:32:40.667 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:36:19.359 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:39:37.260 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:43:01.551 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:46:34.366 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:49:37.665 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:50:50.174 E [rpc_connection.cpp:1197         ] Socket error 103
+07:51:09.191 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:54:13.035 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+07:57:32.372 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:01:27.107 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:04:40.613 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:07:42.861 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:13:01.053 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:16:52.338 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:20:24.062 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:25:10.997 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:28:49.676 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:32:08.849 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:36:52.617 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:40:30.677 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:43:44.390 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:48:53.842 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:52:52.428 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+08:56:13.730 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+09:02:55.346 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+09:06:20.527 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+09:09:44.954 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+17:16:17.024 E [ap_connection_impl.cpp:822      ] AP Socket Error: Connection reset by peer (104)
+17:16:17.025 E [ap_handler_impl.cpp:975         ] Connection error:  101
+17:16:17.025 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a45.ap.spotify.com:4070
+17:16:17.319 I [ap_connection_impl.cpp:534      ] Connected to AP: 194.68.28.213:4070
+17:18:12.573 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+17:21:29.188 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+17:22:32.393 I [offline_manager.cpp:2264        ] Storage has been cleaned
+17:24:35.830 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+17:28:08.518 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+17:31:04.336 E [rpc_connection.cpp:1197         ] Socket error 103
+17:32:04.650 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+17:35:32.797 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+17:40:05.675 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+17:44:43.290 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+17:48:12.920 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+17:51:17.763 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:02:16.559 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:05:32.953 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:09:11.030 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:13:22.712 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:17:14.091 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:20:17.395 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:25:07.702 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:29:44.509 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:33:04.693 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:36:05.541 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:39:09.238 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:42:27.369 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:48:10.825 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:51:22.499 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:54:50.238 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+18:58:23.283 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+19:02:08.574 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+19:06:09.401 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+19:09:55.481 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+19:13:02.625 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+19:17:02.505 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+19:42:06.374 E [udp_listener.cpp:105            ] Failed to broadcast to #0 255.255.255.255:57621 because 101
+19:42:06.374 I [udp_listener.cpp:124            ] Re-binding broken UDP listener
+19:42:06.375 E [udp_listener.cpp:105            ] Failed to broadcast to #0 255.255.255.255:57621 because 101
+19:43:01.537 E [ap_handler_impl.cpp:975         ] Connection error:  114
+19:43:01.537 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a45.ap.spotify.com:4070
+19:43:01.578 I [ap_connection_impl.cpp:534      ] Connected to AP: 194.68.28.213:4070
+20:56:34.200 E [ap_handler_impl.cpp:975         ] Connection error:  114
+20:56:34.200 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a45.ap.spotify.com:4070
+20:56:39.201 E [ap_connection_impl.cpp:822      ] AP Socket Error: Timeout reached (20000)
+20:56:39.201 E [ap_handler_impl.cpp:975         ] Connection error:  117
+20:56:39.201 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a41.ap.spotify.com:4070
+20:56:44.201 E [ap_connection_impl.cpp:822      ] AP Socket Error: Timeout reached (20000)
+20:56:44.201 E [ap_handler_impl.cpp:975         ] Connection error:  117
+20:56:44.202 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a109.ap.spotify.com:4070
+20:56:49.202 E [ap_connection_impl.cpp:822      ] AP Socket Error: Timeout reached (20000)
+20:56:49.202 E [ap_handler_impl.cpp:975         ] Connection error:  117
+20:56:49.204 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a27.ap.spotify.com:4070
+20:56:54.205 E [ap_connection_impl.cpp:822      ] AP Socket Error: Timeout reached (20000)
+20:56:54.205 E [ap_handler_impl.cpp:975         ] Connection error:  117
+20:56:54.205 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a34.ap.spotify.com:4070
+20:56:59.205 E [ap_connection_impl.cpp:822      ] AP Socket Error: Timeout reached (20000)
+20:56:59.205 E [ap_handler_impl.cpp:975         ] Connection error:  117
+20:56:59.564 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a69.ap.spotify.com:4070
+20:57:04.565 E [ap_connection_impl.cpp:822      ] AP Socket Error: Timeout reached (20000)
+20:57:04.565 E [ap_handler_impl.cpp:975         ] Connection error:  117
+20:57:09.616 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a19.ap.spotify.com:4070
+20:57:14.232 E [ap_connection_impl.cpp:822      ] AP Socket Error: Host not found (20001)
+20:57:14.232 E [ap_handler_impl.cpp:975         ] Connection error:  4
+20:57:24.073 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a65.ap.spotify.com:4070
+20:57:24.110 I [ap_connection_impl.cpp:534      ] Connected to AP: 194.68.30.24:4070
+20:57:25.043 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:1247345994:collectiontracklist:6Pdr5CWPZL85Ek1sRy3fT0] Synchronization starting: DIFF (from revision 4,a195cfb78d315336b1c2e4d19b02903a64ab3ddf) 
+20:57:25.251 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:1247345994:collectiontracklist:6Pdr5CWPZL85Ek1sRy3fT0] Delta-updated to revision 4,a195cfb78d315336b1c2e4d19b02903a64ab3ddf (no new changes)
+20:57:25.543 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:1247345994:inbox] Synchronization starting: DIFF (from revision 1,b3efd33fc5b73f3df81bfa916b9ee38800a23c11) 
+20:57:25.752 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:1247345994:inbox] Delta-updated to revision 1,b3efd33fc5b73f3df81bfa916b9ee38800a23c11 (no new changes)
+20:57:25.843 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:1247345994:publishedrootlist] Synchronization starting: DIFF (from revision 17,c1f8e57723b8bfcb08268081b3909595c71e4abc) 
+20:57:25.942 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:1247345994:collectionrootlist] Synchronization starting: DIFF (from revision 2,d56b3d71ab60c55c9f1b3eabc6936a63f25b546d) 
+20:57:26.049 3 [playlist_be_pl4_context.cpp:591 ] [spotify:user:1247345994:publishedrootlist]  synchronization error: Hermes error code 405 (unknown)
+20:57:26.050 3 [playlist_be_pl4_context.cpp:688 ] [spotify:user:1247345994:publishedrootlist]   - requesting HEAD from remote.
+20:57:26.050 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:1247345994:publishedrootlist] Synchronization starting: GET (full reset) (cannot send dump) (from revision 17,c1f8e57723b8bfcb08268081b3909595c71e4abc) 
+20:57:26.154 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:1247345994:collectionrootlist] Delta-updated to revision 2,d56b3d71ab60c55c9f1b3eabc6936a63f25b546d (no new changes)
+20:57:26.263 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:1247345994:publishedrootlist] Snapshot-updated to revision 17,c1f8e57723b8bfcb08268081b3909595c71e4abc
+21:02:04.574 I [offline_manager.cpp:2071        ] 0 files unlocked. 3 images unlocked
+06:09:03.855 E [udp_listener.cpp:105            ] Failed to broadcast to #0 255.255.255.255:57621 because 101
+06:09:03.855 I [udp_listener.cpp:124            ] Re-binding broken UDP listener
+06:09:03.855 E [udp_listener.cpp:105            ] Failed to broadcast to #0 255.255.255.255:57621 because 101
+06:09:33.857 E [udp_listener.cpp:105            ] Failed to broadcast to #0 255.255.255.255:57621 because 101
+06:09:33.857 I [udp_listener.cpp:124            ] Re-binding broken UDP listener
+06:09:33.857 E [udp_listener.cpp:105            ] Failed to broadcast to #0 255.255.255.255:57621 because 101
+06:10:03.599 E [ap_handler_impl.cpp:975         ] Connection error:  114
+06:10:03.599 I [ap_connection_impl.cpp:880      ] Connecting to AP sjc1-accesspoint-a65.ap.spotify.com:4070
+06:10:03.717 I [ap_connection_impl.cpp:534      ] Connected to AP: 194.68.30.24:4070
+06:10:21.735 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:13:25.307 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:17:08.623 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:19:22.131 E [rpc_connection.cpp:1197         ] Socket error 104
+06:19:26.686 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:22:30.093 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:25:33.308 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:27:37.336 E [rpc_connection.cpp:1197         ] Socket error 103
+06:27:52.863 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android
+06:30:58.098 I [local_file_sync.cpp:505         ] Wifi Sync Connected to SM-N900V android

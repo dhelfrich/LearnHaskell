@@ -1,0 +1,54 @@
+ Week # 1: Palindrome Splitting Challenge (Prof. John Black)
+Deadline for Solutions Friday Jan. 30, 2015.
+
+Palindrome
+A palindrome is a string that reads the same forwards as well as backwards.
+“abcccba”, “abba”, “aaaaaaabbcbbaaaaaaaa”, and “ablewasiereisawelba”.
+
+A single letter string is trivially considered a palindrone.
+
+Input
+
+We are input a string eg., “abbaadaarbra”
+
+Output
+
+Split the string into the smallest number of palindromes possible:
+
+No part of the string should be left out, duplicated or reordered.
+Report the number of palindromes in your split, and the split, as well.
+Examples
+
+Eg., “abbaadaarbra” = “abba” + “ ada” + “arbra” splits into 3 palindromes.
+
+Another example:
+
+“ababbab” can be split as “aba” +“b” + “bab” into 3 palindromes.
+
+However, it can also be split as “a” + “babbab” into 2 palindromes.
+
+However, the latter split involves a smaller number of palindromes than the former and is therefore the correct answer.
+
+Instructions
+
+Write a simple recursive implementation.
+
+Report on the results for the following input strings:
+
+abbababaaabaababababababaaababbbb
+abbacccdabaeabadcccabddfddbacccdab
+ggaccttggaccccggcaaagcggagagaccggtaataat
+cggtaataatggaccttggaccccggcaaagcggagagac
+abaabaaaabaaaaabaaaaaaabaaaaaabbbbbabbbbaaaaaabbbbbaababancababaabababbacabbbbababcbaabcbbac
+ACAAGATGCCATTGTCCCCCGGCCTCCTGCTGCTGCTGCTCTCCGGGGCCACGGCCACCGCTGCCCTGCCCCTGGAGGGTGGCCCCACCGGCCGAGACAGCGAGCATATGCAGGAAGCGGCAGGAATAAGGAAAAGCAGCCTCCTGACTTTCCTCGCTTGGTGGTTTGAGTGGACCTCCCAGGCCAGTGCCGGGCCCCTCATAGGAGAGGAAGCTCGGGAGGTGGCCAGGCGGCAGGAAGGCGCACCCCCCCAGCAATCCGCGCGCCGGGACAGAATGCCCTGCAGGAACTTCTTCTGGAAGACCTTCTCCTCCTGCAAATAAAACCTCACCCATGAATGCTCACGCAAGTTTAATTACAGACCTGAA
+TTGATTACCTTATTTGATCATTACACATTGTACGCTTGTGTCAAAATATCACATGTGCCTTATAAATGTGTACAACTATTAGTTATCCATAAAAATTAAAAATTAAAAAATCCGTAAAATGGTTTAAGCATTCAGCAGTGCTGATCTTTCTTAAATTATTTTTCTAATTTTGGAAAGAAAGCACAAAATCTTTGAATTCACAATTGCTTAAAGACTGAGGTTAACTTGCCAGTGGCAGGCTTGAGAGATGAGAGAACTAACGTCAGAGGATAGATGGTTTCTTGTACAAATAACACCCCCTTATGTATTGTTCTCCACCACCCCCGCCCAAAAAGCTACTCGACCTATGAAACAAATCACACTATGAGCACAGATAACCCCAGGCTTCAGGTCTGTAATCTGACTGTGGCCATCGGCAACCAGAAATGAGTTTCTTTCTAATCAGTCTTGCATCAGTCTCCAGTCATTCATATAAAGGAGCCCGGGGATGGGAGGATTCGCATTGCTCTTCAGCACCAGGGTTCTGGACAGCGCCCCAAGCAGGCAGCTGATCGCACGCCCCTTCCTCTCAATCTCCGCCAGCGCTGCTACTGCCCCTCTAGTACCCCCTGCTGCAGAGAAAGAATATTACACCGGGATCCATGCAGCCAGCAATGATGATGTTTTCCAGTAAATACTGGGCACGGAGAGGGTTTTCCCTGGATTCAGCAGTGCCCGAAGAGCATCAGCTACTTGGCAGCTCA
+If possible, can you tell me what is the worst case running time of your solution?
+
+Status
+
+No solutions yet.
+
+Given two partitions that are optimal, their union is guaranteed to be optimal if there is no palindrome that
+contains parts from both halves. Call these inter-palindromes. The optimal solution for their union is either the
+two partitions from before or two different partitions and an interpalindrome.
+
