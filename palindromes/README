@@ -1,0 +1,11 @@
+This is an algorithm that computes the optimal splitting of a string into palindromes of the 
+smallest possible size. There are three solutions: two of them run in exponential time and
+one divide-and-conquor solution that is much faster. The python code would not work on even 
+the first string input. The other two algorithms are written in Haskell. The other slower algorithm
+(called optiSplit2) computed the solution to the first four strings quickly, but could not do the others.
+
+The last algorithm is implemented in the main function of palin.hs. It can run the inputs in roughly 5 seconds
+The syntax is as follows:
+1. The input file is read from input.txt
+2. The program takes two arguments corresponding to the range of lines to use as input. i.e.
+   ./palin 2 4 would run the algorithm on lines 3-4. 

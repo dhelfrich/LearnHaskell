@@ -9,8 +9,7 @@ main = do
         end = read $ args !! 1
         inputs = drop first . take end $ lines file
         outputs = map optiSplit inputs
-    print inputs
-    print $ lstsubs $ head inputs
+    --print inputs
     mapM print outputs 
 
 --Uses divide and consquer strategy.
@@ -60,7 +59,11 @@ lstsubs str = map (filter isPalin) $ consSubseqs str
     consSubseqs x = (fil $ map fil $ map inits $ tails x)
       where fil = filter (not . null)
 
---This algorithm works, but it seems to be too slow
+--This algorithm works, but it seems to be too slow possibly exponential,
+--albeit way faster than the python
+optiSplit2 :: String -> [String]
+optiSplit2 = init . shortestSplit 
+
 shortestSplit :: String -> [String]
 shortestSplit x = getShortest $ foldSub [] $ (lstsubs $ x)
 
@@ -77,33 +80,4 @@ foldSub ac lst = do
     remainder <- foldSub [] lst'
     return $ ac' ++ remainder
 
-
-
-addBlanks :: [String] -> [[String]]
-addBlanks a = addBlanks' a []
-  where
-    addBlanks' :: [String] -> [[String]] -> [[String]]
-    addBlanks' [] ac = ac
-    addBlanks' (x:xs) ac = addBlanks' xs $ ac ++ [[x]] ++ replicate (length x - 1) []
-    
-
-
-
-
-
-
-{- Just used this to outline the foldsub' function
-foldSub :: [String] -> [String] -> [String]
-foldSub [] [] = []
-foldSub ac [] = ac
-foldSub [] (x:xs) = foldSub [x] xs
-foldSub ac lst = ac ++ foldSub [] (lst')
-  where
-    lst' = drop (l - 1) lst
-    l = length . last $ ac
--}
-
---Nondeterministic fold over list
-
---splitPalin :: String -> [String]
 
