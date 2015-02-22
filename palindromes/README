@@ -1,16 +1,18 @@
-This is an algorithm that computes the optimal splitting of a string into palindromes of the 
-smallest possible size. There are three solutions: 
+This is an algorithm that computes the optimal splitting of a string into
+palindromes of the smallest possible size. There are three solutions: 
 
-1.) Written in python, runs in exponential time, cannot be used on strings longer than ~10 because it
-    runs in exp time. O(3^n) calls to isPalindrome
+1.) Written in python, runs in exponential time, cannot be used on strings 
+    longer than ~10 because it runs in exp time. O(3^n) calls to isPalindrome
 
-2.) This one is called palinSlow.hs. It can run on the first four strings in reasonable time.
+2.) This one is called palinSlow.hs. It can run on the first four strings in 
+    reasonable time.
 
-3.) The last solution relies on a divide and conquor algorithm. It can run all the inputs in roughly 5 seconds.
-    Oddly enough, the worst case is when the string consists one repeated character. i. e. "aaaaaa.."
+3.) The last solution relies on a divide and conquor algorithm. It can run all 
+    the inputs in roughly 5 seconds. Oddly enough, the worst case is when the 
+    string consists one repeated character. i. e. "aaaaaa.."
 
 
 The last two functions are compiled and can be called from the command line.
 1. The input file is read from input.txt
-2. The program takes two arguments corresponding to the range of lines to use as input. i.e.
-   ./palin 2 4 would run the algorithm on lines 3-4 in input.txt.
+2. The program takes two arguments corresponding to the range of lines to use as input. 
+    i.e. ./palin 2 4 would run the algorithm on lines 3-4 in input.txt.
